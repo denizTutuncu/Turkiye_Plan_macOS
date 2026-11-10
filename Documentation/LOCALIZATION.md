@@ -4,7 +4,7 @@ The app supports English (en), Turkish (tr), Spanish (es), Italian (it), Simplif
 
 ## Resources and architecture
 
-- `TurkiyePlan/Resources/Localizable.xcstrings` is the sole translation catalog: 304 entries, each with all 12 translations. Xcode compiles it into standard localized `.strings` resources. Do not copy compiled `.lproj` output into source control.
+- `TurkiyePlan/Resources/Localizable.xcstrings` is the sole translation catalog: 354 entries, each with all 12 translations. Xcode compiles it into standard localized `.strings` resources. Do not copy compiled `.lproj` output into source control.
 - `Utils/Localization.swift` contains the supported-language model, lookup and whole-message formatting helpers, preference object, language menu and localized root wrapper.
 - `L10n.text` resolves strings for the selected language. English is the fallback for missing translations; unknown custom labels remain verbatim. Turkish values equal to Turkish keys are valid and never mistaken for missing translations.
 - `L10n.format` supports numbered `{0}`, `{1}` placeholders so translations can reorder arguments without changing code. Arguments are inserted once, never interpreted as format strings.

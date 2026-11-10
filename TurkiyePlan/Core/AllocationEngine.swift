@@ -1,7 +1,7 @@
 import Foundation
-protocol AllocationCalculating: Sendable { func calculate(_ scenario: Scenario, geography: Geography, services: [Service]) throws -> AllocationResult }
+protocol AllocationCalculating: Sendable { nonisolated func calculate(_ scenario: Scenario, geography: Geography, services: [Service]) throws -> AllocationResult }
 nonisolated struct AllocationEngine: AllocationCalculating {
- func calculate(_ s: Scenario, geography g: Geography, services: [Service]) throws -> AllocationResult {
+ nonisolated func calculate(_ s: Scenario, geography g: Geography, services: [Service]) throws -> AllocationResult {
   let districtIDs = Set(g.districts.map(\.id)); let serviceIDs = Set(services.map(\.id))
   guard g.schemaVersion == 1, Set(g.provinces.map(\.id)).count == g.provinces.count,
    districtIDs.count == g.districts.count, serviceIDs.count == services.count,

@@ -1,6 +1,6 @@
 import Foundation
-protocol GeographyRepository: Sendable { func load() async throws -> Geography }
-protocol ScenarioRepository: Sendable { func load() async throws -> Scenario }
+protocol GeographyRepository: Sendable { nonisolated func load() async throws -> Geography }
+protocol ScenarioRepository: Sendable { nonisolated func load() async throws -> Scenario }
 nonisolated struct LocalGeographyRepository: GeographyRepository {
  let url: URL
  func load() async throws -> Geography { try JSONDecoder().decode(Geography.self, from: Data(contentsOf: url)) }
@@ -29,12 +29,12 @@ nonisolated struct APIScenarioRepository: ScenarioRepository {
  let timeoutSeconds: Double
  func load() async throws -> Scenario { try await HTTPJSONLoader(timeoutSeconds: timeoutSeconds).load(Scenario.self, from: endpoint) }
 }
-protocol ScenarioStore: Sendable { func read(_ url: URL) throws -> Scenario; func write(_ value: Scenario, to url: URL) throws }
+protocol ScenarioStore: Sendable { nonisolated func read(_ url: URL) throws -> Scenario; nonisolated func write(_ value: Scenario, to url: URL) throws }
 nonisolated struct JSONScenarioStore: ScenarioStore {
  func read(_ url: URL) throws -> Scenario { try JSONDecoder().decode(Scenario.self, from: Data(contentsOf: url)) }
  func write(_ value: Scenario, to url: URL) throws { let encoder = JSONEncoder(); encoder.outputFormatting = [.prettyPrinted, .sortedKeys]; try encoder.encode(value).write(to: url, options: .atomic) }
 }
-protocol GeographyFileStore: Sendable { func read(_ url: URL) throws -> Geography }
+protocol GeographyFileStore: Sendable { nonisolated func read(_ url: URL) throws -> Geography }
 nonisolated struct JSONGeographyFileStore: GeographyFileStore {
  func read(_ url: URL) throws -> Geography { try JSONDecoder().decode(Geography.self, from: Data(contentsOf: url)) }
 }

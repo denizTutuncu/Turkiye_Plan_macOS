@@ -39,6 +39,8 @@ struct PlanningScreen: View {
      MetricCard(title: L10n.text("İlçe–hizmet kaydı"), value: String(vm.scenario?.records.count ?? 0), symbol: "tablecells")
      MetricCard(title: L10n.text("Nüfus verisi olan ilçe"), value: String(vm.populationDistrictCount), symbol: "person.3")
     }
+    DataQualityDashboard(vm: vm)
+    ScenarioLibraryView(vm: vm)
     PopulationImportButton(vm: vm)
     Text(L10n.text("Nüfus gözlemleri ve hizmet ihtiyacı kayıtları ayrıdır. Nüfusun bilinmesi, sağlık ihtiyacı veya mevcut hizmet kapsamının bilindiği anlamına gelmez.")).font(.caption).foregroundStyle(.secondary)
     HStack(spacing: 16) {

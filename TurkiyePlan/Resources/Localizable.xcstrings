@@ -23712,6 +23712,3906 @@
         }
       },
       "generatesSymbol": false
+    },
+    "review.quality": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veri kalitesi"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data quality"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calidad de datos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qualità dei dati"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "数据质量"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "डेटा गुणवत्ता"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جودة البيانات"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qualité des données"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "তথ্যের মান"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qualidade dos dados"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Качество данных"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ڈیٹا معیار"
+          }
+        }
+      }
+    },
+    "review.qualityNote": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynak bulunması bağımsız doğrulama değildir. Durumlar veri sağlayıcının beyanıdır; eksik kayıt sıfır ihtiyaç değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A citation is not independent verification. Status is source-reported; a missing record does not mean zero need."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una cita no es verificación independiente. El estado lo declara la fuente; un registro ausente no es necesidad cero."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una citazione non è verifica indipendente. Lo stato è dichiarato dalla fonte; un record mancante non indica bisogno zero."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "引用来源不代表独立核实。状态由来源报告；缺失记录不等于零需求。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "स्रोत होना स्वतंत्र सत्यापन नहीं। स्थिति स्रोत की है; गुम रिकॉर्ड शून्य ज़रूरत नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الاستشهاد ليس تحققًا مستقلًا. الحالة من المصدر؛ السجل المفقود لا يعني انعدام الحاجة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une citation n’est pas une vérification indépendante. Statut déclaré par la source ; absence ne signifie pas besoin nul."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "উৎস থাকা স্বাধীন যাচাই নয়। অবস্থা উৎসের দাবি; অনুপস্থিত রেকর্ড শূন্য প্রয়োজন নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Citação não é verificação independente. Estado declarado pela fonte; ausência não significa necessidade zero."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка не является независимой проверкой. Статус указан источником; отсутствие записи не означает нулевую нужду."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حوالہ آزاد تصدیق نہیں۔ حیثیت ماخذ کی ہے؛ گم ریکارڈ صفر ضرورت نہیں۔"
+          }
+        }
+      }
+    },
+    "review.populationCoverage": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynaklı nüfus verisi olan ilçeler"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Districts with sourced population"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distritos con población documentada"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distretti con popolazione documentata"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有来源人口的区县"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "स्रोत वाली जनसंख्या के ज़िले"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أقضية بسكان موثقين"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Districts avec population sourcée"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "উৎসযুক্ত জনসংখ্যার জেলা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distritos com população documentada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Районы с населением из источника"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماخذ والی آبادی کے اضلاع"
+          }
+        }
+      }
+    },
+    "review.observedPoverty": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yoksulluk: kaynak beyanlı gözlem"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poverty: source-reported observation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobreza: observación declarada"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Povertà: osservazione dichiarata"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "贫困：来源报告观测"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "गरीबी: स्रोत का अवलोकन"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الفقر: رصد معلن من المصدر"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pauvreté : observation déclarée"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দারিদ্র্য: উৎসের পর্যবেক্ষণ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobreza: observação declarada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бедность: наблюдение по источнику"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غربت: ماخذ کا مشاہدہ"
+          }
+        }
+      }
+    },
+    "review.estimatedPoverty": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yoksulluk: tahmini oran"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poverty: estimated rate"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobreza: tasa estimada"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Povertà: tasso stimato"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "贫困：估计比率"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "गरीबी: अनुमानित दर"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الفقر: نسبة مقدرة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pauvreté : taux estimé"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দারিদ্র্য: আনুমানিক হার"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobreza: taxa estimada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бедность: оценённая доля"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غربت: تخمینی شرح"
+          }
+        }
+      }
+    },
+    "review.missingPoverty": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yoksulluk: oran bilinmiyor"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poverty: unknown rate"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobreza: tasa desconocida"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Povertà: tasso ignoto"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "贫困：比率未知"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "गरीबी: अज्ञात दर"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الفقر: نسبة مجهولة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pauvreté : taux inconnu"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দারিদ্র্য: অজানা হার"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobreza: taxa desconhecida"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бедность: доля неизвестна"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غربت: نامعلوم شرح"
+          }
+        }
+      }
+    },
+    "review.serviceQuality": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hizmete göre veri kapsamı"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data coverage by service"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cobertura de datos por servicio"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copertura dati per servizio"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "各服务数据覆盖"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेवा अनुसार डेटा कवरेज"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تغطية البيانات حسب الخدمة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couverture des données par service"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিষেবা অনুযায়ী তথ্যের আওতা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cobertura de dados por serviço"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Охват данных по услугам"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خدمت کے لحاظ سے ڈیٹا کوریج"
+          }
+        }
+      }
+    },
+    "review.modeled": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modellenen ilçe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modeled districts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distritos modelados"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distretti modellati"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已建模区县"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मॉडल किए ज़िले"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أقضية ممثلة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Districts modélisés"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "মডেলকৃত জেলা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distritos modelados"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Смоделированные районы"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماڈل اضلاع"
+          }
+        }
+      }
+    },
+    "review.missing": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydı olmayan ilçe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Districts without records"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distritos sin registros"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distretti senza record"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无记录区县"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बिना रिकॉर्ड के ज़िले"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أقضية دون سجلات"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Districts sans fiches"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "রেকর্ডহীন জেলা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distritos sem registros"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Районы без записей"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بغیر ریکارڈ اضلاع"
+          }
+        }
+      }
+    },
+    "review.sourced": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynak alanı dolu kayıt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Records with a source"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros con fuente"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Record con fonte"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有来源记录"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "स्रोत वाले रिकॉर्ड"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سجلات بمصدر"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiches avec source"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "উৎসযুক্ত রেকর্ড"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros com fonte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Записи с источником"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماخذ والے ریکارڈ"
+          }
+        }
+      }
+    },
+    "review.aligned": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiyat yılı uyumlu kayıt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Price-year-aligned records"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros con año de precios alineado"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Record con anno prezzi coerente"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "价格年份一致记录"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मूल्य वर्ष मिले रिकॉर्ड"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سجلات بسنة أسعار متوافقة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiches à année de prix cohérente"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "মূল্যবর্ষ মেলা রেকর্ড"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros com ano de preços alinhado"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Записи с единым годом цен"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قیمت سال ملتے ریکارڈ"
+          }
+        }
+      }
+    },
+    "review.estimateInputs": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO senaryosu: hizmet girdileri bağımsız doğrulanmamıştır."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO scenario: service inputs are not independently verified."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escenario DEMO: datos de servicio sin verificación independiente."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scenario DEMO: dati dei servizi non verificati indipendentemente."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "演示情景：服务输入未经独立核实。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO परिदृश्य: सेवा इनपुट स्वतंत्र सत्यापित नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سيناريو DEMO: مدخلات الخدمات غير متحققة مستقلًا."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scénario DEMO : données de service non vérifiées indépendamment."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO দৃশ্যকল্প: পরিষেবা ইনপুট স্বাধীনভাবে যাচাই নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cenário DEMO: dados de serviços não verificados independentemente."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сценарий DEMO: данные услуг не проверены независимо."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO منظرنامہ: خدمات اندراجات آزاد تصدیق شدہ نہیں۔"
+          }
+        }
+      }
+    },
+    "review.unverifiedInputs": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hizmet girdilerinde alan bazlı doğrulama durumu yoktur; kaynaklı değerler de doğrulanmamış girdi olarak gösterilir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service inputs have no field-level verification status; cited values are also unverified inputs."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los servicios no tienen verificación por campo; los valores citados tampoco están verificados."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I servizi non hanno verifica per campo; anche i valori citati sono non verificati."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务输入无字段级核实状态；有引用值仍为未核实输入。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेवा इनपुट में क्षेत्रवार सत्यापन नहीं; स्रोत वाले मान भी असत्यापित हैं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا حالة تحقق لكل حقل؛ القيم ذات المصادر أيضًا مدخلات غير متحققة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas de statut de vérification par champ ; les valeurs citées restent non vérifiées."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিষেবায় ঘরভিত্তিক যাচাই অবস্থা নেই; উৎসযুক্ত মানও অযাচাইকৃত।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem verificação por campo; valores citados também não são verificados."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет проверки по полям; значения со ссылкой также не проверены."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خدمات میں خانہ وار تصدیق نہیں؛ حوالہ والی اقدار بھی غیر تصدیق شدہ ہیں۔"
+          }
+        }
+      }
+    },
+    "review.explain": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu tahsis nasıl hesaplandı?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How was this allocation calculated?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Cómo se calculó esta asignación?"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Come è stata calcolata questa assegnazione?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此分配如何计算？"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "यह आवंटन कैसे निकला?"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "كيف حُسب هذا التخصيص؟"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment cette allocation est-elle calculée ?"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "এই বরাদ্দ কীভাবে গণনা হলো?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Como esta alocação foi calculada?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Как рассчитано распределение?"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یہ تخصیص کیسے نکلی؟"
+          }
+        }
+      }
+    },
+    "review.gapStep": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Hizmet açığı"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Service gap"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Brecha de servicio"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Carenza del servizio"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. 服务缺口"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. सेवा अंतर"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. فجوة الخدمة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Déficit de service"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. পরিষেবার ঘাটতি"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Lacuna de serviço"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Дефицит услуг"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. خدمت خلا"
+          }
+        }
+      }
+    },
+    "review.costStep": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Maliyet ve gereksinim"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Costs and requirement"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Costes y necesidad"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Costi e fabbisogno"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. 成本与需求"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. लागत और ज़रूरत"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. التكاليف والاحتياج"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Coûts et besoin"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. খরচ ও প্রয়োজন"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Custos e necessidade"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Затраты и потребность"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. لاگت اور ضرورت"
+          }
+        }
+      }
+    },
+    "review.requirementRounded": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gereksinim (yukarı yuvarlanmış kuruş)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Requirement (rounded up to kuruş)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Necesidad (redondeada a kuruş superiores)"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fabbisogno (arrotondato al kuruş superiore)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "资金需求（向上取整至库鲁什）"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ज़रूरत (अगले कुरुश तक पूर्णांक)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الاحتياج (مقرب لأعلى بالقرش)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Besoin (arrondi au kuruş supérieur)"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "প্রয়োজন (পরের kuruş-এ পূর্ণ)"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Necessidade (arredondada ao kuruş superior)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Потребность (округлена вверх до куруша)"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ضرورت (اوپر کروش تک گول)"
+          }
+        }
+      }
+    },
+    "review.priorityStep": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Öncelik düzeltmeleri"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Priority adjustments"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Ajustes de prioridad"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Correzioni di priorità"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. 优先调整"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. प्राथमिकता समायोजन"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. تعديلات الأولوية"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Ajustements de priorité"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. অগ্রাধিকার সমন্বয়"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Ajustes de prioridade"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Корректировки приоритета"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. ترجیح تبدیلیاں"
+          }
+        }
+      }
+    },
+    "review.distributionStep": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. Pay, tahsis ve kalan açık"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. Share, allocation and remaining gap"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. Cuota, asignación y brecha restante"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. Quota, assegnazione e carenza residua"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. 份额、分配与剩余缺口"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. हिस्सा, आवंटन और शेष अंतर"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. الحصة والتخصيص والفجوة المتبقية"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. Part, allocation et déficit restant"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. ভাগ, বরাদ্দ ও অবশিষ্ট ঘাটতি"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. Parcela, alocação e lacuna restante"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. Доля, распределение и остаток дефицита"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4. حصہ، تخصیص اور باقی خلا"
+          }
+        }
+      }
+    },
+    "review.scoreShare": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sınırlandırma öncesi puan payı"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Score share before caps"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuota de puntuación antes de topes"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quota punteggio prima dei limiti"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "限额前分数占比"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सीमा से पहले अंक हिस्सा"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حصة الدرجة قبل السقوف"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part du score avant plafonds"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সীমার আগে স্কোরের ভাগ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parcela da pontuação antes dos limites"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доля балла до ограничений"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حدوں سے پہلے اسکور حصہ"
+          }
+        }
+      }
+    },
+    "review.fundedPercent": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gereksinimin finanse edilen payı"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Funded share of requirement"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parte de necesidad financiada"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quota finanziata del fabbisogno"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "需求获资比例"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ज़रूरत का वित्तपोषित हिस्सा"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حصة الاحتياج الممولة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part du besoin financée"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "প্রয়োজনের অর্থায়িত ভাগ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parcela financiada da necessidade"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Профинансированная доля потребности"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ضرورت کا مالی حصہ"
+          }
+        }
+      }
+    },
+    "review.remainingUnits": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalan hedef hizmet açığı"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remaining target service gap"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brecha restante del objetivo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carenza residua rispetto all’obiettivo"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "剩余目标服务缺口"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "शेष लक्षित सेवा अंतर"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فجوة الخدمة المستهدفة المتبقية"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déficit restant par rapport à la cible"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "অবশিষ্ট লক্ষ্য পরিষেবার ঘাটতি"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lacuna restante da meta"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оставшийся целевой дефицит услуг"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "باقی ہدف خدمت خلا"
+          }
+        }
+      }
+    },
+    "review.capNote": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puan payı ilk dağıtım içindir. Nihai tahsis gereksinim tavanları, yeniden dağıtım ve kuruş yuvarlamasını içerir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Score share describes the initial distribution. Final allocation includes requirement caps, redistribution and kuruş rounding."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La cuota es inicial. La asignación final incluye topes, redistribución y redondeo de kuruş."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La quota è iniziale. L’assegnazione finale include limiti, redistribuzione e arrotondamento kuruş."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "分数占比描述初始分配。最终分配含需求限额、再分配和库鲁什取整。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अंक हिस्सा प्रारंभिक है। अंतिम आवंटन में सीमा, पुनर्वितरण और कुरुश पूर्णांकन हैं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حصة الدرجة أولية. التخصيص النهائي يشمل السقوف وإعادة التوزيع وتقريب القروش."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La part est initiale. L’allocation finale inclut plafonds, redistribution et arrondi kuruş."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "স্কোর ভাগ প্রাথমিক। চূড়ান্ত বরাদ্দে সীমা, পুনর্বণ্টন ও kuruş পূর্ণায়ন আছে।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A parcela é inicial. Alocação final inclui limites, redistribuição e arredondamento de kuruş."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доля балла начальная. Итог включает ограничения, перераспределение и округление курушей."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اسکور حصہ ابتدائی ہے۔ آخری تخصیص میں حدیں، دوبارہ تقسیم اور کروش گول کرنا شامل ہیں۔"
+          }
+        }
+      }
+    },
+    "review.estimatedUnitsNote": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ek hizmet = açık × tahsis ÷ gereksinim. Kalan açık hedefe göredir; fiilen sunulan hizmet ölçümü değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Additional service = gap × allocation ÷ requirement. Remaining gap is relative to the target, not measured delivered service."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servicio adicional = brecha × asignación ÷ necesidad. Brecha respecto al objetivo, no servicio medido."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servizio aggiuntivo = carenza × assegnazione ÷ fabbisogno. Residuo rispetto all’obiettivo, non servizio misurato."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增服务 = 缺口 × 分配 ÷ 需求。剩余缺口相对目标，并非实测交付。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अतिरिक्त सेवा = अंतर × आवंटन ÷ ज़रूरत। शेष अंतर लक्ष्य का है, मापी गई सेवा नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الخدمة الإضافية = الفجوة × التخصيص ÷ الاحتياج. الباقي نسبة للهدف وليس خدمة مقاسة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service supplémentaire = déficit × allocation ÷ besoin. Déficit relatif à la cible, pas au service livré mesuré."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "অতিরিক্ত পরিষেবা = ঘাটতি × বরাদ্দ ÷ প্রয়োজন। অবশিষ্ট লক্ষ্যভিত্তিক, বাস্তব পরিষেবার পরিমাপ নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serviço adicional = lacuna × alocação ÷ necessidade. Restante relativo à meta, não serviço medido."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доп. услуги = дефицит × распределение ÷ потребность. Остаток относительно цели, а не измеренной поставки."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اضافی خدمت = خلا × تخصیص ÷ ضرورت۔ باقی خلا ہدف کا ہے، اصل خدمت کی پیمائش نہیں۔"
+          }
+        }
+      }
+    },
+    "review.scenarios": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kayıtlı senaryolar ve karşılaştırma"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved scenarios and comparison"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escenarios guardados y comparación"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scenari salvati e confronto"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已保存情景与比较"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सहेजे परिदृश्य और तुलना"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "السيناريوهات المحفوظة والمقارنة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scénarios enregistrés et comparaison"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সংরক্ষিত দৃশ্যকল্প ও তুলনা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cenários salvos e comparação"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранённые сценарии и сравнение"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "محفوظ منظرنامے اور موازنہ"
+          }
+        }
+      }
+    },
+    "review.snapshotNote": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adlandırılmış kopyalar tüm girdileri ve tanımları yerel olarak saklar. Kayıt ve karşılaştırma etkin planı değiştirmez."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Named snapshots store all inputs and definitions locally. Saving and comparing do not change the active plan."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las copias guardan datos y definiciones localmente. Guardar y comparar no cambia el plan activo."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le copie salvano dati e definizioni localmente. Salvataggio e confronto non cambiano il piano attivo."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "命名快照本地保存全部输入和定义。保存与比较不改变当前规划。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "नाम वाली प्रतियाँ सभी इनपुट व परिभाषाएँ स्थानीय रखती हैं। सहेजना या तुलना सक्रिय योजना नहीं बदलते।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تحفظ اللقطات المدخلات والتعريفات محليًا. الحفظ والمقارنة لا يغيران الخطة النشطة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les copies nommées gardent données et définitions localement. Enregistrer et comparer ne modifient pas le plan actif."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "নামযুক্ত কপি সব ইনপুট ও সংজ্ঞা স্থানীয় রাখে। সংরক্ষণ ও তুলনা সক্রিয় পরিকল্পনা বদলায় না।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cópias nomeadas guardam dados e definições localmente. Salvar e comparar não alteram o plano ativo."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Именованные снимки хранят все данные и определения локально. Сохранение и сравнение не меняют активный план."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام والی نقول سب اندراجات اور تعریفیں مقامی رکھتی ہیں۔ محفوظ کرنا یا موازنہ فعال منصوبہ نہیں بدلتے۔"
+          }
+        }
+      }
+    },
+    "review.scenarioName": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Senaryo adı (en çok 120 karakter)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scenario name (up to 120 characters)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre del escenario (hasta 120 caracteres)"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome scenario (fino a 120 caratteri)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "情景名称（最多120字符）"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "परिदृश्य नाम (120 अक्षर तक)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اسم السيناريو (حتى 120 حرفًا)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom du scénario (120 caractères max.)"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দৃশ্যকল্পের নাম (120 অক্ষর পর্যন্ত)"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome do cenário (até 120 caracteres)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Имя сценария (до 120 символов)"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "منظرنامہ نام (120 حروف تک)"
+          }
+        }
+      }
+    },
+    "review.saveSnapshot": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adlandırılmış kopyayı kaydet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save named snapshot"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar copia con nombre"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva copia con nome"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存命名快照"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "नाम वाली प्रति सहेजें"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حفظ لقطة مسماة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer une copie nommée"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "নামযুক্ত কপি সংরক্ষণ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salvar cópia nomeada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить именованный снимок"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام والی نقل محفوظ کریں"
+          }
+        }
+      }
+    },
+    "review.saved": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Senaryo kopyası yerel olarak kaydedildi."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scenario snapshot saved locally."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia guardada localmente."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia salvata localmente."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "情景快照已本地保存。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "परिदृश्य प्रति स्थानीय सहेजी गई।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حُفظت لقطة السيناريو محليًا."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copie enregistrée localement."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দৃশ্যকল্পের কপি স্থানীয় সংরক্ষিত।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cópia salva localmente."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Снимок сценария сохранён локально."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "منظرنامہ نقل مقامی محفوظ۔"
+          }
+        }
+      }
+    },
+    "review.noSnapshots": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karşılaştırmak için mevcut planı bir adla kaydedin, bütçe veya ağırlığı değiştirin ve iki seçeneği karşılaştırın."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save the current plan with a name, change its budget or weight, then compare the options."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guarde el plan con un nombre, cambie presupuesto o peso y compare."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva il piano con un nome, cambia budget o peso e confronta."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "命名保存当前规划，修改预算或权重，再比较选项。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "योजना नाम से सहेजें, बजट या भार बदलें, फिर तुलना करें।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "احفظ الخطة باسم ثم غيّر الميزانية أو الوزن وقارن."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrez le plan, changez budget ou poids, puis comparez."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিকল্পনা নামে সংরক্ষণ, বাজেট বা ওজন বদলে তুলনা করুন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salve o plano, mude orçamento ou peso e compare."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохраните план с именем, измените бюджет или вес и сравните."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "منصوبہ نام سے محفوظ، بجٹ یا وزن بدل کر موازنہ کریں۔"
+          }
+        }
+      }
+    },
+    "review.compare": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Senaryoları karşılaştır"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compare scenarios"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparar escenarios"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confronta scenari"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "比较情景"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "परिदृश्य तुलना"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مقارنة السيناريوهات"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparer les scénarios"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দৃশ্যকল্প তুলনা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparar cenários"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сравнить сценарии"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "منظرنامے موازنہ"
+          }
+        }
+      }
+    },
+    "review.deltaDirection": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fark = B − A. Tutar artışı daha iyi sonuç anlamına gelmez; kalan açık ve varsayımları birlikte inceleyin."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change = B − A. More funding does not necessarily mean a better outcome; review gaps and assumptions together."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambio = B − A. Más fondos no implica mejor resultado; revise brechas y supuestos."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Variazione = B − A. Più fondi non significa esito migliore; valuta carenze e ipotesi."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "变化 = B − A。更多资金不一定更好；请同时检查缺口和假设。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बदलाव = B − A। अधिक निधि बेहतर परिणाम नहीं; अंतर और धारणाएँ साथ देखें।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التغير = B − A. التمويل الأكبر لا يعني نتيجة أفضل؛ راجع الفجوات والافتراضات."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écart = B − A. Plus de fonds ne signifie pas meilleur résultat ; examinez déficits et hypothèses."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিবর্তন = B − A। বেশি অর্থ মানেই ভালো ফল নয়; ঘাটতি ও অনুমান দেখুন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Variação = B − A. Mais verba não garante resultado melhor; avalie lacunas e hipóteses."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменение = B − A. Больше средств не значит лучший результат; смотрите дефицит и допущения."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فرق = B − A۔ زیادہ رقم لازمی بہتر نتیجہ نہیں؛ خلا اور مفروضے ساتھ دیکھیں۔"
+          }
+        }
+      }
+    },
+    "review.left": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A"
+          }
+        }
+      }
+    },
+    "review.right": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "B"
+          }
+        }
+      }
+    },
+    "review.current": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etkin plan"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active plan"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan activo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piano attivo"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前规划"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सक्रिय योजना"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الخطة النشطة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan actif"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সক্রিয় পরিকল্পনা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plano ativo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активный план"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فعال منصوبہ"
+          }
+        }
+      }
+    },
+    "review.delta": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fark (B − A)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change (B − A)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambio (B − A)"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Variazione (B − A)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "变化（B − A）"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बदलाव (B − A)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التغير (B − A)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écart (B − A)"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিবর্তন (B − A)"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Variação (B − A)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменение (B − A)"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فرق (B − A)"
+          }
+        }
+      }
+    },
+    "review.serviceComparison": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hizmet bazında karşılaştırma"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparison by service"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparación por servicio"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confronto per servizio"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按服务比较"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेवा अनुसार तुलना"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المقارنة حسب الخدمة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparaison par service"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিষেবা অনুযায়ী তুলনা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparação por serviço"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сравнение по услугам"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خدمت کے لحاظ سے موازنہ"
+          }
+        }
+      }
+    },
+    "review.additionalUnits": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tahmini ek hizmet birimi"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estimated additional service units"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidades de servicio adicionales estimadas"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unità di servizio aggiuntive stimate"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "估计新增服务单位"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अनुमानित अतिरिक्त सेवा इकाइयाँ"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وحدات خدمة إضافية مقدرة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unités de service supplémentaires estimées"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আনুমানিক অতিরিক্ত পরিষেবা একক"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidades adicionais estimadas"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оценка дополнительных единиц услуг"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تخمینی اضافی خدمت اکائیاں"
+          }
+        }
+      }
+    },
+    "review.unitNote": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Birimler yalnızca aynı hizmet içinde toplanır. Farklı hizmet birimleri ülke toplamı olarak birleştirilmez; tahminler fiilî çıktı değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Units are summed only within each service, never across services. Estimates are not measured delivery."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidades sumadas solo por servicio, no entre servicios. Estimaciones no son resultados medidos."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unità sommate solo nello stesso servizio, mai tra servizi. Le stime non sono risultati misurati."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "单位仅在同一服务内相加，不跨服务汇总。估计不是实际交付测量。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इकाइयाँ केवल एक सेवा में जुड़ती हैं, सेवाओं के पार नहीं। अनुमान मापी हुई सेवा नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تُجمع الوحدات داخل الخدمة فقط، لا عبر الخدمات. التقديرات ليست نتائج مقاسة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unités additionnées par service uniquement. Les estimations ne sont pas des prestations mesurées."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "একক শুধু একই পরিষেবায় যোগ হয়, পরিষেবা জুড়ে নয়। অনুমান বাস্তব ফল নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidades somadas só no mesmo serviço. Estimativas não são entregas medidas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Единицы суммируются только внутри услуги, не между услугами. Оценки не являются измеренной поставкой."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اکائیاں صرف اسی خدمت میں جمع ہیں، مختلف خدمات میں نہیں۔ تخمینے اصل فراہمی نہیں۔"
+          }
+        }
+      }
+    },
+    "review.districtComparison": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İlçe ve hizmet bazında değişimler"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Changes by district and service"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambios por distrito y servicio"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Variazioni per distretto e servizio"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "区县及服务变化"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ज़िला और सेवा अनुसार बदलाव"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التغيرات حسب القضاء والخدمة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écarts par district et service"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "জেলা ও পরিষেবা অনুযায়ী পরিবর্তন"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Variações por distrito e serviço"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменения по районам и услугам"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ضلع اور خدمت کے لحاظ سے تبدیلیاں"
+          }
+        }
+      }
+    },
+    "review.nameRequired": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1–120 karakterlik bir senaryo adı girin."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a scenario name of 1–120 characters."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduzca un nombre de 1–120 caracteres."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inserisci un nome di 1–120 caratteri."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入1至120字符的名称。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1–120 अक्षरों का नाम दें।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أدخل اسمًا من 1–120 حرفًا."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saisissez un nom de 1 à 120 caractères."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1–120 অক্ষরের নাম দিন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insira um nome de 1–120 caracteres."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите имя из 1–120 символов."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1–120 حروف کا نام دیں۔"
+          }
+        }
+      }
+    },
+    "review.archiveInvalid": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kayıtlı senaryo dosyası geçersiz. Mevcut dosyalar korunur."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid saved scenario file. Existing files are preserved."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archivo de escenario inválido. Se conservan los archivos."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File scenario non valido. File esistenti conservati."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已保存情景文件无效。现有文件保留。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सहेजी फ़ाइल अमान्य। मौजूदा फ़ाइलें सुरक्षित।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ملف سيناريو غير صالح. الملفات الحالية محفوظة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fichier de scénario invalide. Fichiers existants conservés."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দৃশ্যকল্প ফাইল অবৈধ। বর্তমান ফাইল অক্ষত।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arquivo de cenário inválido. Arquivos preservados."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неверный файл сценария. Существующие файлы сохранены."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "منظرنامہ فائل غلط۔ موجودہ فائلیں برقرار۔"
+          }
+        }
+      }
+    },
+    "review.algorithm": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu senaryonun hesaplama yöntemi desteklenmiyor. Dosya korunur."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This scenario's calculation method is unsupported. The file is preserved."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Método de cálculo no compatible. Archivo conservado."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metodo di calcolo non supportato. File conservato."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不支持此计算方法。文件保留。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "यह गणना विधि समर्थित नहीं। फ़ाइल सुरक्षित।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "طريقة الحساب غير مدعومة. الملف محفوظ."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Méthode de calcul non prise en charge. Fichier conservé."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "গণনা পদ্ধতি সমর্থিত নয়। ফাইল অক্ষত।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Método de cálculo não suportado. Arquivo preservado."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Метод расчёта не поддерживается. Файл сохранён."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حساب طریقہ غیر معاون۔ فائل برقرار۔"
+          }
+        }
+      }
+    },
+    "review.priceMismatch": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiyat yılları farklı; karşılaştırmalı farklar gösterilmez."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Price years differ; comparative deltas are hidden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Años de precios distintos; diferencias ocultas."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anni dei prezzi diversi; differenze nascoste."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "价格年份不同，不显示差值。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मूल्य वर्ष अलग; अंतर छिपाए गए।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سنوات الأسعار مختلفة؛ الفروق مخفية."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Années de prix différentes ; écarts masqués."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "মূল্যবর্ষ আলাদা; পার্থক্য গোপন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anos de preços diferentes; diferenças ocultas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Годы цен различны; разницы скрыты."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قیمت سال مختلف؛ فرق مخفی۔"
+          }
+        }
+      }
+    },
+    "review.geographyMismatch": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coğrafya veya kaynak revizyonu farklı; karşılaştırmalı farklar gösterilmez."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geography or source revision differs; comparative deltas are hidden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geografía o revisión distinta; diferencias ocultas."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geografia o revisione diversa; differenze nascoste."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "地理或来源修订不同，不显示差值。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "भूगोल या स्रोत संशोधन अलग; अंतर छिपे हैं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الجغرافيا أو المراجعة مختلفة؛ الفروق مخفية."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Géographie ou révision différente ; écarts masqués."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ভূগোল বা সংশোধন আলাদা; পার্থক্য গোপন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geografia ou revisão diferente; diferenças ocultas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "География или редакция различается; разницы скрыты."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جغرافیہ یا نظرثانی مختلف؛ فرق مخفی۔"
+          }
+        }
+      }
+    },
+    "review.unitMismatch": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hizmetler veya birimleri farklı; karşılaştırmalı farklar gösterilmez."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Services or units differ; comparative deltas are hidden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servicios o unidades distintos; diferencias ocultas."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servizi o unità diversi; differenze nascoste."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务或单位不同，不显示差值。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेवाएँ या इकाइयाँ अलग; अंतर छिपे हैं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الخدمات أو الوحدات مختلفة؛ الفروق مخفية."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Services ou unités différents ; écarts masqués."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিষেবা বা একক আলাদা; পার্থক্য গোপন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serviços ou unidades diferentes; diferenças ocultas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Услуги или единицы различны; разницы скрыты."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خدمات یا اکائیاں مختلف؛ فرق مخفی۔"
+          }
+        }
+      }
+    },
+    "review.recordMismatch": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kayıt kapsamı farklı; eksik kayıtlar sıfır sayılmaz ve farklar gösterilmez."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Record coverage differs; missing records are not zero and deltas are hidden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cobertura distinta; ausencias no son cero y diferencias ocultas."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copertura diversa; record mancanti non sono zero e differenze nascoste."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "记录覆盖不同；缺失不作零，隐藏差值。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "रिकॉर्ड कवरेज अलग; गुम शून्य नहीं, अंतर छिपे हैं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تغطية السجلات مختلفة؛ المفقود ليس صفرًا والفروق مخفية."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couverture différente ; les absences ne sont pas zéro et les écarts sont masqués."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "রেকর্ড আওতা আলাদা; অনুপস্থিত শূন্য নয় ও পার্থক্য গোপন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cobertura diferente; ausências não são zero e diferenças ocultas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Охват записей различается; отсутствие не ноль, разницы скрыты."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ریکارڈ کوریج مختلف؛ گم صفر نہیں، فرق مخفی۔"
+          }
+        }
+      }
+    },
+    "review.horizonMismatch": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İşletme süreleri farklı; karşılaştırmalı farklar gösterilmez."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operating horizons differ; comparative deltas are hidden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plazos operativos distintos; diferencias ocultas."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durate operative diverse; differenze nascoste."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "运营期限不同，不显示差值。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "संचालन अवधि अलग; अंतर छिपे हैं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مدد التشغيل مختلفة؛ الفروق مخفية."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durées différentes ; écarts masqués."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিচালন সময় আলাদা; পার্থক্য গোপন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prazos diferentes; diferenças ocultas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сроки эксплуатации различны; разницы скрыты."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عملی مدت مختلف؛ فرق مخفی۔"
+          }
+        }
+      }
+    },
+    "review.povertyMismatch": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yoksulluk tanımı veya referans yılı farklı; karşılaştırmalı farklar gösterilmez."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poverty definitions or reference years differ; comparative deltas are hidden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Definición o año de pobreza distinto; diferencias ocultas."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Definizione o anno di povertà diverso; differenze nascoste."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "贫困定义或参考年不同，不显示差值。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "गरीबी परिभाषा या वर्ष अलग; अंतर छिपे हैं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعريف الفقر أو سنته مختلف؛ الفروق مخفية."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Définition ou année de pauvreté différente ; écarts masqués."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দারিদ্র্য সংজ্ঞা বা বছর আলাদা; পার্থক্য গোপন।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Definição ou ano de pobreza diferente; diferenças ocultas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Определения или годы бедности различны; разницы скрыты."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غربت تعریف یا سال مختلف؛ فرق مخفی۔"
+          }
+        }
+      }
+    },
+    "review.noPositiveRequirement": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pozitif maliyet gereksinimi yok"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No positive cost requirement"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin necesidad de coste positiva"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun fabbisogno di costo positivo"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无正成本需求"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सकारात्मक लागत ज़रूरत नहीं"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا احتياج تكلفة موجب"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun besoin de coût positif"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ধনাত্মক খরচের প্রয়োজন নেই"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem necessidade de custo positiva"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет положительной потребности в затратах"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مثبت لاگت ضرورت نہیں"
+          }
+        }
+      }
     }
   },
   "version": "1.1"

@@ -4,7 +4,7 @@ import Combine
 enum AppTab: String, CaseIterable, Identifiable {
  case overview, regions, allocation, deployment, sources
  var id: String { rawValue }
- var title: String { switch self { case .overview: L10n.text("Genel Bakış"); case .regions: L10n.text("İller ve İlçeler"); case .allocation: L10n.text("Dağıtım Matematiği"); case .deployment: L10n.text("Uygulama Planı"); case .sources: "Veri ve Kaynaklar" } }
+ var title: String { switch self { case .overview: L10n.text("Genel Bakış"); case .regions: L10n.text("İller ve İlçeler"); case .allocation: L10n.text("Dağıtım Matematiği"); case .deployment: L10n.text("Uygulama Planı"); case .sources: L10n.text("Veri ve Kaynaklar") } }
  var symbol: String { switch self { case .overview: "chart.bar.xaxis"; case .regions: "map"; case .allocation: "function"; case .deployment: "list.bullet.clipboard"; case .sources: "externaldrive" } }
 }
 @MainActor protocol TabRouting: AnyObject { func select(_ tab: AppTab) }

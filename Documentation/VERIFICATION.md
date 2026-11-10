@@ -21,4 +21,4 @@ View-update publication correction: source-level inspection identified synchrono
 
 ## Twelve-language localization update
 
-Added a complete 304-key / 12-language string catalog, persistent in-app language selection, locale formatting, right-to-left SwiftUI layouts, deferred AppKit tab-title updates, and localization XCTest coverage. Existing UI smoke tests explicitly select Turkish. Static catalog/placeholder and Swift grammar checks pass; all 18 existing JSON resource files are byte-identical to the supplied archive. Native build, catalog compilation, tests and visual layout verification require Xcode on a Mac and were not executed here.
+Added a complete 354-key / 12-language string catalog, persistent in-app language selection, locale formatting, right-to-left SwiftUI layouts, deferred AppKit tab-title updates, and localization XCTest coverage. Existing UI smoke tests explicitly select Turkish. Static catalog/placeholder and Swift grammar checks pass; all 18 existing JSON resource files are byte-identical to the supplied archive. Native build, catalog compilation, tests and visual layout verification require Xcode on a Mac and were not executed here.

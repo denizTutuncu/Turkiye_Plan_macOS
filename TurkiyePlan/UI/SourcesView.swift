@@ -9,6 +9,7 @@ struct SourcesView: View {
    VStack(alignment: .leading, spacing: 20) {
     Text(L10n.text("Veri sizin kontrolünüzde.")).font(.largeTitle.bold())
     Text(L10n.text("Yüklü senaryonun nüfus gözlemleri ve hizmet girdileri ayrı tutulur. DEMO senaryosundaki ihtiyaç, kapsam ve maliyet varsayımları resmî ilçe ölçümleri değildir."))
+    DataQualityDashboard(vm: vm)
     PopulationImportButton(vm: vm)
     Button(L10n.text("Yoksulluk profili JSON içe aktar")) {
      let panel = NSOpenPanel(); panel.allowedContentTypes = [.json]

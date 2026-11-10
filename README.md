@@ -16,7 +16,7 @@ The deployment target is macOS 26.6. The app uses SwiftUI, AppKit, Combine and S
 
 | Screen | Purpose |
 | --- | --- |
-| Overview | Geography and record counts, budget totals and allocations by service |
+| Overview | Data quality, saved scenarios, side-by-side comparisons, geography counts, budget totals and allocations by service |
 | Provinces and Districts | District selection, population observations, service inputs, poverty profiles and regional indicators |
 | Allocation Math | Funding presets, financial envelope, budget, poverty weight, formulas and searchable allocation results |
 | Implementation Plan | Unfunded requirements and estimated capital and operating coverage |
@@ -57,6 +57,22 @@ Population observations are separate from service needs. A known population does
 
 A fresh workspace loads bundled geography and the nationwide demonstration in `empty-scenario.json`. Use **Import scenario JSON** to load a planning scenario. Use the dedicated poverty-profile import to update profiles while retaining service and finance inputs.
 
+## Data quality and allocation explanations
+
+The data-quality dashboard appears in Overview and Data and Sources. It shows district population coverage, source-reported and estimated poverty profiles, unknown poverty profiles, and data coverage by service. Service coverage includes modeled districts, missing districts, records with a source and records matching the plan price year.
+
+A citation does not establish independent verification. Service records have no field-level verification status and remain unverified inputs; the demo flag is displayed separately. Missing records are not treated as zero need.
+
+Each allocation in Allocation Math has an expandable calculation breakdown: the target service gap, investment and operating costs, operating horizon, delivery-cost adjustment, effective poverty rate, poverty weight, fiscal capacity, score share, final funding and remaining target gap. Sources and reference years are shown with the inputs. The initial score share is distinguished from the final allocation after caps and redistribution.
+
+## Saved scenarios and comparison
+
+In Overview, enter a name and save a snapshot of the active plan. Each snapshot captures its scenario, geography, service and indicator definitions, creation time and calculation method. Files are written atomically to `SavedScenarios` beside the active database. These files persist across launches and are separate from active-scenario JSON exports.
+
+Select A and B from saved snapshots or the active plan. Comparisons show budget and allocation totals side by side, plus changes in funding, estimated additional service units and remaining target gaps by service and district. Changes are calculated as **B − A**. District comparisons support province/district search and pagination.
+
+Numeric deltas are withheld when price years, geography revisions or district relationships, service units, record coverage, operating horizons or applicable poverty definitions are incompatible. Absolute scenario summaries remain visible. Units are summed within a service, never across different services. Saving and comparing do not replace the active plan. Corrupt snapshot files produce an error and are preserved.
+
 ## Allocation calculation
 
 ```text
@@ -93,7 +109,7 @@ Applying a budget or poverty weight validates, recalculates and saves the scenar
 
 ## Local storage and JSON
 
-SwiftData stores geography and one active scenario in Application Support under the app's bundle identifier. **Data and Sources** displays the database location.
+SwiftData stores geography and the active scenario in Application Support under the app's bundle identifier. Named scenario snapshots are stored separately as local JSON files. **Data and Sources** displays the database location.
 
 For geography and scenario data, loading follows this order:
 
@@ -130,7 +146,7 @@ The app follows MVVM with protocol-based controllers and injected dependencies. 
 
 | Directory | Responsibility |
 | --- | --- |
-| `Core` | Domain models, allocation engine, validation, repositories, workspace loading and SwiftData persistence |
+| `Core` | Domain models, allocation engine, data quality, scenario comparison, validation, repositories, workspace loading and persistence |
 | `Navigation` | Tab routing and AppKit view-controller protocols and implementations |
 | `Resources` | JSON datasets, configuration, translations and source licenses |
 | `UI` | SwiftUI screens, editors, planning view model and planning controller |
@@ -145,7 +161,7 @@ Native tab and region-selection callbacks use deferred, coalesced updates to avo
 
 ## Tests
 
-Run **Product → Test** in Xcode for allocation, validation, persistence, loading, population, poverty, search, presentation, localization and UI coverage. The UI smoke test uses an in-memory workspace and explicitly selects Turkish.
+Run **Product → Test** in Xcode for allocation, validation, persistence, loading, population, poverty, search, presentation, localization, data quality, scenario comparisons, snapshot storage and UI coverage. The UI smoke test uses an in-memory workspace and explicitly selects Turkish.
 
 Check translation coverage and placeholders from the repository root:
 
@@ -161,6 +177,7 @@ Project approval, responsible agencies, site selection, permits, procurement, st
 
 ## Documentation
 
+- [Planning review](Documentation/PLANNING-REVIEW.md)
 - [Data contract](Documentation/DATA-CONTRACT.md)
 - [Finance data](Documentation/FINANCE-2025.md)
 - [Poverty methodology](Documentation/POVERTY-MODEL.md)

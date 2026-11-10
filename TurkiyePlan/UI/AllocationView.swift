@@ -46,6 +46,7 @@ struct AllocationView: View {
       HStack { Text(L10n.text("Açık: ") + number(row.gap)); Spacer(); Text(L10n.text("Puan: ") + number(row.score)); Spacer(); Text(L10n.text("Gereksinim: ") + money(row.requirementCents)) }
       ProgressView(value: row.requirementCents == 0 ? 0 : Double(row.allocatedCents) / Double(row.requirementCents)).tint(.teal)
       HStack { Text(L10n.text("Tahsis: ") + money(row.allocatedCents)).bold(); Spacer(); Text(L10n.text("Tahmini ek hizmet: ") + number(row.estimatedUnits)) }
+      AllocationBreakdown(vm: vm, row: row)
      }.padding().background(.quaternary.opacity(0.4), in: RoundedRectangle(cornerRadius: 12))
     }
     if visibleLimit < matchingRows.count { Button(L10n.text("Sonraki 100 kaydı göster")) { visibleLimit += 100 } }

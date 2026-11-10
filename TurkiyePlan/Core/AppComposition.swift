@@ -51,7 +51,10 @@ import SwiftUI
    bundledScenario: LocalScenarioRepository(url: try resource("empty-scenario")), validator: validator)
   let controller = ConcretePlanningController(loader: loader, persistence: persistence, validator: validator, fileStore: JSONScenarioStore(), geographyFileStore: JSONGeographyFileStore(), observationSeed: LocalScenarioRepository(url: try resource("empty-scenario")))
   let financePresets = try JSONDecoder().decode([FinancePreset].self, from: Data(contentsOf: resource("finance-presets-2025")))
-  let vm = PlanningViewModel(controller: controller, services: services, indicators: indicators, recordTemplate: template, financePresets: financePresets)
+  let snapshotStore: any ScenarioSnapshotStoring
+  if isUITesting { snapshotStore = InMemoryScenarioSnapshotStore() }
+  else { snapshotStore = JSONScenarioSnapshotStore(directory: storeURL.deletingLastPathComponent().appendingPathComponent("SavedScenarios", isDirectory: true)) }
+  let vm = PlanningViewModel(controller: controller, services: services, indicators: indicators, recordTemplate: template, financePresets: financePresets, snapshotStore: snapshotStore)
   let root = ConcreteTabViewController(viewModel: vm, router: ConcreteTabRouter())
   let window = NSWindow(contentViewController: root); window.title = L10n.text("Türkiye Kamu Planı"); window.setContentSize(NSSize(width: 1280, height: 840)); window.center(); window.makeKeyAndOrderFront(nil); self.window = window
   NSApplication.shared.setActivationPolicy(.regular); NSApplication.shared.activate(ignoringOtherApps: true)

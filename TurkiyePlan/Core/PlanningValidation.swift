@@ -1,6 +1,6 @@
 import Foundation
 nonisolated struct GeographyValidation: Sendable {
- func validate(_ geography: Geography) throws {
+ nonisolated func validate(_ geography: Geography) throws {
   let provinces = Set(geography.provinces.map(\.id))
   let districts = Set(geography.districts.map(\.id))
   guard geography.schemaVersion == 1, !provinces.isEmpty, !districts.isEmpty,
@@ -13,13 +13,13 @@ nonisolated struct GeographyValidation: Sendable {
  }
 }
 protocol ScenarioValidating: Sendable {
- func validate(_ scenario: Scenario, geography: Geography) throws -> AllocationResult
+ nonisolated func validate(_ scenario: Scenario, geography: Geography) throws -> AllocationResult
 }
 nonisolated struct PlanningValidation: ScenarioValidating {
  let services: [Service]
  let indicators: [IndicatorDefinition]
  let calculator: any AllocationCalculating
- func validate(_ value: Scenario, geography: Geography) throws -> AllocationResult {
+ nonisolated func validate(_ value: Scenario, geography: Geography) throws -> AllocationResult {
   try GeographyValidation().validate(geography)
   if let metadata = value.finances?.provenance {
    guard metadata.referenceYear == value.priceYear, ["reported", "illustrative", "user_edited"].contains(metadata.status) else {
