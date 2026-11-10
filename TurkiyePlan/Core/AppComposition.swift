@@ -4,7 +4,7 @@ import SwiftUI
 // Only the application composition root chooses concrete storage/data sources.
 @main @MainActor struct TurkiyePlanApp: App {
  @NSApplicationDelegateAdaptor(PlanAppDelegate.self) var delegate
- var body: some Scene { Settings { Text("Türkiye Kamu Planı • yerel SwiftData deposu").padding() } }
+ var body: some Scene { Settings { LocalizedSettingsView() } }
 }
 @MainActor final class PlanAppDelegate: NSObject, NSApplicationDelegate {
  private var window: NSWindow?
@@ -21,13 +21,13 @@ import SwiftUI
     try launch(config: config, services: services, indicators: indicators, template: template, storeURL: support.appendingPathComponent("TurkiyePlan-Package", isDirectory: true).appendingPathComponent("Planning.store"))
     return
     #else
-    throw PlanningError.invalid("Uygulama paket kimliği bulunamadı.")
+    throw PlanningError.invalid(L10n.text("Uygulama paket kimliği bulunamadı."))
     #endif
    }
    let storeURL = support.appendingPathComponent(bundleID, isDirectory: true).appendingPathComponent("Planning.store")
    try launch(config: config, services: services, indicators: indicators, template: template, storeURL: storeURL)
   } catch {
-   let alert = NSAlert(); alert.messageText = "Başlatılamadı"; alert.informativeText = "Yerel depo otomatik olarak silinmedi. " + error.localizedDescription; alert.runModal(); NSApplication.shared.terminate(nil)
+   let alert = NSAlert(); alert.messageText = L10n.text("Başlatılamadı"); alert.informativeText = "Yerel depo otomatik olarak silinmedi. " + L10n.message(error.localizedDescription); alert.runModal(); NSApplication.shared.terminate(nil)
   }
  }
  private func launch(config: AppConfiguration, services: [Service], indicators: [IndicatorDefinition], template: NeedRecord, storeURL: URL) throws {
@@ -53,7 +53,7 @@ import SwiftUI
   let financePresets = try JSONDecoder().decode([FinancePreset].self, from: Data(contentsOf: resource("finance-presets-2025")))
   let vm = PlanningViewModel(controller: controller, services: services, indicators: indicators, recordTemplate: template, financePresets: financePresets)
   let root = ConcreteTabViewController(viewModel: vm, router: ConcreteTabRouter())
-  let window = NSWindow(contentViewController: root); window.title = "Türkiye Kamu Planı"; window.setContentSize(NSSize(width: 1280, height: 840)); window.center(); window.makeKeyAndOrderFront(nil); self.window = window
+  let window = NSWindow(contentViewController: root); window.title = L10n.text("Türkiye Kamu Planı"); window.setContentSize(NSSize(width: 1280, height: 840)); window.center(); window.makeKeyAndOrderFront(nil); self.window = window
   NSApplication.shared.setActivationPolicy(.regular); NSApplication.shared.activate(ignoringOtherApps: true)
   Task { await vm.load() }
  }
@@ -64,7 +64,7 @@ import SwiftUI
   #if SWIFT_PACKAGE
   if let url = Bundle.module.url(forResource: name, withExtension: "json", subdirectory: "Resources") { return url }
   #endif
-  throw PlanningError.invalid("Kaynak bulunamadı: " + name + ".json. Hedef üyeliğini ve Copy Bundle Resources ayarını kontrol edin.")
+  throw PlanningError.invalid(L10n.text("Kaynak bulunamadı: ") + name + L10n.text(".json. Hedef üyeliğini ve Copy Bundle Resources ayarını kontrol edin."))
  }
  func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
 }

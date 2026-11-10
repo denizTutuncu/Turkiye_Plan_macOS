@@ -1,96 +1,168 @@
-# Türkiye Kamu Planı • SwiftData edition
+# Türkiye Plan
 
-Native macOS 26.6+ app, Swift 6.2+, SwiftUI views hosted by AppKit view controllers. SwiftData persistence, MVVM, protocol-based controllers, injected data sources and tab routing. No third-party runtime dependencies.
+Türkiye Plan is a native macOS app for exploring how public funding could improve services across Türkiye. It models district-level needs, delivery costs and funding allocations for healthcare, education, sports, childcare, senior care, electricity, water and sewage, and recycling.
 
-## Open the integrated project
-Choose the shared **TurkiyePlan** scheme, select **My Mac**, and Run. Use Product → Test to run the existing test targets with the added tests.
+Users can choose a budget, adjust poverty weighting, inspect individual allocations and compare funding with modeled service requirements. Calculations are shown alongside their inputs and assumptions.
 
-This is your supplied Xcode template with sources integrated. Your app/test target IDs, signing team, bundle identifiers, asset catalog and macOS 26.6 deployment target are preserved. The original modern `project.xcproj` format is preserved; use the Xcode version that created your template or a newer version supporting that format.
+## Run
 
-Starter Item, ContentView and TurkiyePlanApp files were replaced. The only @main is in Core/AppComposition.swift. The app's five main folders are already members of the synchronized app source folder, and test fixtures are included in the test target.
+1. Open `TurkiyePlan.xcodeproj` in Xcode with support for its `project.xcproj` format.
+2. Select the **TurkiyePlan** scheme and **My Mac** destination.
+3. Configure signing for your development team and run.
 
-Swift language mode is set to Swift 6. MainActor is explicit at UI/persistence boundaries, rather than a project-wide default. Sandbox user-selected file access is Read/Write and outgoing client connections are enabled for optional APIs. API endpoints remain unset. Shared launch/test scheme uses Debug; archives use Release. See Documentation/XCODE-INTEGRATION.md for the integration record.
+The deployment target is macOS 26.6. The app uses SwiftUI, AppKit, Combine and SwiftData, with no third-party runtime dependencies.
 
-### Data loading order
-For each persisted dataset:
-1. Read saved SwiftData data.
-2. Only when that dataset is absent, try its configured HTTPS API.
-3. If no API is configured, or the API fails validation/network loading, use the bundled JSON seed.
-4. Validate the complete workspace and persist the imported datasets before presenting them.
+## Screens
 
-No API endpoint is configured by default. A cold first launch seeds the local store from `Resources/geography.json` and `Resources/empty-scenario.json`. Later launches read the database without contacting an API or reseeding. The bundled data is immutable seed data, not Swift constants. Counts are derived from records, not hardcoded.
+| Screen | Purpose |
+| --- | --- |
+| Overview | Geography and record counts, budget totals and allocations by service |
+| Provinces and Districts | District selection, population observations, service inputs, poverty profiles and regional indicators |
+| Allocation Math | Funding presets, financial envelope, budget, poverty weight, formulas and searchable allocation results |
+| Implementation Plan | Unfunded requirements and estimated capital and operating coverage |
+| Data and Sources | Storage details, source attribution, JSON imports and exports |
 
-An existing unreadable or invalid database is an error, not an empty store: it is preserved and never automatically deleted/replaced. There is no background refresh or cloud sync.
+Result lists display 100 records at a time, with an action to show more. All valid records participate in calculations and exports. Province and district search filters displayed allocation results without changing the budget or calculation scope. Search supports Turkish and ASCII spelling variants and combined names such as `İzmir Urla`.
 
-## Local persistence and imports
-- The database lives in Application Support under the app's bundle identifier; its exact path appears in **Veri ve Kaynaklar**. Sandbox apps resolve Application Support inside their app container.
-- Source province/district IDs are persisted with uniqueness constraints and an inverse province–district relationship.
-- Source revision/metadata and a versioned active scenario snapshot are persisted with the geography.
-- Successful imports and **Kaydet / Uygula** actions commit to SwiftData explicitly. Unapplied form text is a draft and is not autosaved.
-- Validation and persistence must both succeed before new state is published to the UI.
-- JSON export is a separate portable backup operation. Imported source files are not modified.
-- **Coğrafya JSON içe aktar** validates current scenario references before replacing geography. A change that would orphan scenario records is rejected, not silently pruned.
-- **Senaryo JSON içe aktar** replaces the active scenario after validation and local save. There is one active workspace in this version; no saved-scenario browser/history yet.
+## Languages
 
-For a numerical example, import `Resources/demo-scenario.json`. It is explicitly synthetic and will become the active persisted scenario. Import `Resources/empty-scenario.json` to start a new empty plan.
+The globe menu and Settings provide English, Türkçe, Español, Italiano, 简体中文, हिन्दी, العربية, Français, বাংলা, Português, Русский and اردو.
+
+The language preference is saved locally. The default follows supported system language preferences, with English as the fallback. Arabic and Urdu use right-to-left SwiftUI layouts. Numbers, currency and dates follow the selected locale; currency remains TRY.
+
+Translations are maintained in `TurkiyePlan/Resources/Localizable.xcstrings`. Province and district names, custom scenario names, imported source descriptions and provenance notes remain in their original language. Native macOS dialogs follow macOS application language settings.
+
+## Data and scenarios
+
+The bundled geography contains 81 provinces and 973 districts. Counts are derived from the loaded records. Geography attribution, revision and licensing are included in the resources; source IDs are not official TÜİK/UAVT codes.
+
+The resources include source-attributed 2025 population observations and published central-government budget figures. Nationwide demonstration scenarios contain 7,784 district–service records across eight services. Service demand, existing coverage, targets, costs and SEGE-informed district poverty profiles in these demonstrations are explicitly labeled assumptions, not verified district measurements.
+
+Population observations are separate from service needs. A known population does not establish healthcare demand, existing coverage or delivery costs. Unknown observations use `null`, rather than a measured zero. Positive poverty weighting requires known, comparable rates for participating records, using the same poverty definition and reference year.
+
+| Resource | Contents |
+| --- | --- |
+| `geography.json` | Provinces, districts and geography provenance |
+| `services.json` | Service definitions and units |
+| `indicators.json` | Regional indicator definitions and units |
+| `record-template.json` | Inputs for a new service draft |
+| `empty-scenario.json` | Bundled initial nationwide demonstration and population observations |
+| `demo-scenario.json` | Synthetic demonstration scenario |
+| `services-2025-complete-scenario.json` | Nationwide service planning scenario |
+| `finance-presets-2025.json` | Reported and illustrative funding presets |
+| `finance-source-2025.json` | Budget source figures and conversion units |
+| `poverty-profiles-2025.json` | District poverty proxies and methodology |
+| `Localizable.xcstrings` | Interface translations |
+| `app-config.json` | Optional API URLs and request timeout |
+
+A fresh workspace loads bundled geography and the nationwide demonstration in `empty-scenario.json`. Use **Import scenario JSON** to load a planning scenario. Use the dedicated poverty-profile import to update profiles while retaining service and finance inputs.
+
+## Allocation calculation
+
+```text
+Gap = max(0, ceil(eligible × target coverage) − served)
+
+Requirement = gap
+            × (capital unit cost + annual operating unit cost × years)
+            × delivery cost index
+
+Priority score = requirement
+               × (1 + poverty weight × poverty rate)
+               ÷ fiscal capacity index
+
+Allocation = remaining budget × score ÷ total active scores
+```
+
+Allocations are capped at each record's requirement. Excess shares are redistributed among records with unmet requirements. Remaining whole kuruş are assigned in stable identity order. Funding left after all modeled requirements are met remains unallocated.
+
+Estimated additional service units equal `gap × allocation ÷ requirement` for records with a positive requirement. These are continuous planning estimates, not project approvals or procurement commitments.
+
+Financial inputs and final allocations use integer kuruş amounts. Weights and intermediate requirements use floating-point calculations. Costs must share a common price year and include the selected operating horizon.
+
+When a financial envelope is present, it limits the plan budget:
+
+```text
+Available funding = max(0,
+    revenue + external transfers
+    − committed spending − debt service − reserve)
+```
+
+The funding deficit is displayed separately. Internal transfers must not be counted twice. Published budget figures and illustrative reallocations are labeled separately; an illustrative envelope is not verified available funding.
+
+Applying a budget or poverty weight validates, recalculates and saves the scenario. Searching and showing more rows affect presentation only.
+
+## Local storage and JSON
+
+SwiftData stores geography and one active scenario in Application Support under the app's bundle identifier. **Data and Sources** displays the database location.
+
+For geography and scenario data, loading follows this order:
+
+1. Use saved SwiftData data when present.
+2. If the dataset is absent, try its configured HTTPS endpoint.
+3. If no endpoint is configured or the remote response fails, use bundled JSON.
+4. Validate the complete workspace and save imported datasets locally.
+
+An unreadable or invalid local database produces an error and is preserved. There is no background refresh or cloud synchronization.
+
+Imports and **Save / Apply** actions save explicitly. Unapplied form changes remain drafts. Validation and persistence must succeed before the displayed plan changes. Geography imports are rejected if they would leave scenario references unresolved.
+
+Scenario and result exports create portable JSON files. Local saving does not modify imported source files or automatically export a backup.
+
+## API configuration
+
+`TurkiyePlan/Resources/app-config.json` contains:
+
+```json
+{
+  "geographyAPIURL": null,
+  "requestTimeoutSeconds": 12,
+  "scenarioAPIURL": null
+}
+```
+
+Both endpoints are disabled by default. Configured endpoints must use HTTPS and return JSON matching the app's `Geography` and `Scenario` models. A provider with a different response structure requires an adapter behind the repository protocol.
+
+Endpoints are consulted only when the corresponding local dataset is absent. Changing a URL does not refresh or replace saved data. Service definitions, indicator definitions, finance presets and the record template load from bundled JSON. The HTTP loader does not implement provider authentication or scheduled refresh.
 
 ## Architecture
-The five main source folders remain Core, Navigation, Resources, UI and Utils. Supporting folders are Tests and Documentation.
 
-| Layer | Responsibility |
-|---|---|
-| Core/AppComposition | Creates the container, repositories, validator, controllers, view model and router at the app level |
-| Core/Persistence | Versioned SwiftData schema, storage protocol, DTO/entity mapping and explicit transactions |
-| Core/LocalFirstWorkspaceLoader | Local → remote → bundled selection, validation and bootstrap save |
-| Core/Repositories | Independent file and API adapters returning Codable/Sendable domain values |
-| Core/AllocationEngine | Pure allocation calculation |
-| UI | PlanningController protocol / ConcretePlanningController; view model; editable screens |
-| Navigation | TabRouting / ConcreteTabRouter; PlanningViewControlling / ConcretePlanningViewController |
+The app follows MVVM with protocol-based controllers and injected dependencies. `Core/AppComposition.swift` is the application entry point and creates the repositories, persistence container, validator, controllers, view model and router.
 
-SwiftData ModelContext and @Model objects stay behind the persistence protocol. Views/view models receive value models and never fetch directly with @Query. The container is owned once at the composition root; no container is constructed by a view or controller. Contexts are main-actor isolated, short-lived and explicitly saved with rollback on error. This keeps actor ownership simple for the current small dataset. For large bulk imports, move the persistence implementation behind a ModelActor and async protocol while retaining the value-model boundary.
+| Directory | Responsibility |
+| --- | --- |
+| `Core` | Domain models, allocation engine, validation, repositories, workspace loading and SwiftData persistence |
+| `Navigation` | Tab routing and AppKit view-controller protocols and implementations |
+| `Resources` | JSON datasets, configuration, translations and source licenses |
+| `UI` | SwiftUI screens, editors, planning view model and planning controller |
+| `Utils` | Formatting, localization, region search and deferred selection updates |
+| `TurkiyePlanTests` | Unit tests and fixtures |
+| `TurkiyePlanUITests` | UI tests |
+| `Documentation` | Data contracts, methodology and implementation details |
 
-Geography is relational. The editable plan is a versioned Codable snapshot stored in SwiftData (external binary storage allowed). This deliberately supports atomic import/export for one active plan; it is not row-level queryable finance or observation storage. Normalize these records in a future version if cross-scenario SQL-style analysis or history becomes necessary.
+SwiftUI views are hosted by AppKit view controllers. Views and view models work with value models; SwiftData entities and contexts remain behind the persistence protocol. Geography is relational, while the active scenario is stored as a Codable snapshot. UI and persistence operations use the main actor; the allocation engine operates on domain values.
 
-## Configure a future API
-Edit `Resources/app-config.json` before building:
-- `geographyAPIURL`: null or your HTTPS endpoint returning Geography v1.
-- `scenarioAPIURL`: null or your HTTPS endpoint returning the current Scenario DTO.
-- `requestTimeoutSeconds`: injected request timeout.
+Native tab and region-selection callbacks use deferred, coalesced updates to avoid publishing selection state during view reconciliation.
 
-No sample endpoint is presented as a functioning service. For a different API schema, add a DTO mapping adapter behind the existing repository protocol. Endpoints are used only for absent datasets; changing an endpoint does not overwrite existing local data. To update saved geography, use the explicit file import. Authentication, scheduled refresh and conflict resolution are future features.
+## Tests
 
-## Included data
-Bundled third-party reference geography: 81 provinces and 973 districts, snapshot 2026-06-19, Open Admin Data, CC BY 4.0. Attribution and source revision are included. This is not independently reconciled with the current official registry. IDs are source identifiers, not official administrative codes. Names preserve source spelling except dotted-i Unicode cleanup. Reconcile identifiers and spelling with official sources before using policy results.
+Run **Product → Test** in Xcode for allocation, validation, persistence, loading, population, poverty, search, presentation, localization and UI coverage. The UI smoke test uses an in-memory workspace and explicitly selects Turkish.
 
-There are no fabricated real-world financial or demographic observations. Service and indicator catalogues and the blank form template are injected JSON. The regional inventory supports province/district demographics, education, household income/costs, revenues, care and infrastructure indicators with source/year and null for unknown. It does not automatically transform raw observations into funding assumptions.
+Check translation coverage and placeholders from the repository root:
 
-## Allocation
-Gap = max(0, ceil(eligible × targetCoverage) − served).
-Requirement = gap × (capital unit cost + annual operating unit cost × years) × delivery cost index.
-Score = requirement × (1 + poverty weight × poverty rate) / fiscal capacity index.
+```bash
+python3 Documentation/verify-localizations.py
+```
 
-Allocate proportionally, cap at each requirement and redistribute surplus. Remaining whole kuruş are assigned in stable identity order. Missing districts are excluded explicitly, not treated as zero need. Unneeded funding stays unallocated.
+## Model scope
 
-A financial envelope limits the budget to own revenue + external transfers − commitments − debt service − reserve. Inputs must be consolidated and expressed on the same horizon and constant-price basis. Costs include all operating years; there is no annual cash-flow forecast. Double is used for planning weights/requirements, while final budget allocations use Int64 kuruş with budget conservation; this is not a payments ledger.
+The app distributes a specified budget against recorded needs. It does not forecast household purchasing power, economic growth, public revenue, debt sustainability or annual cash flow. Savings and social benefits are not added as budget revenue.
 
-Estimated service units are continuous planning estimates, not indivisible project approvals. No sector floors, procurement approvals, legal funding authorities or macroeconomic revenue forecasts are implied. The deployment view describes capital/operating coverage and missing delivery responsibilities.
+Project approval, responsible agencies, site selection, permits, procurement, staffing, maintenance and delivery schedules require separate planning. Results depend on the quality and completeness of the supplied observations and assumptions.
 
-## Build and verify
-Open the included Xcode project and use Product → Test. No source copying, package generator or third-party dependencies are required. Test fixtures are read from the test bundle rather than the source checkout. The UI smoke test uses --ui-testing with a fresh in-memory database in Debug, so it cannot alter the normal saved workspace.
+## Documentation
 
-XCTest covers allocation invariants, fallback selection, validation, saved-data priority, save failure handling, in-memory SwiftData round trips and disk reopening. The unit and UI tests require macOS and were not executed in this Linux environment. Syntax parsing and dataset integrity checks were performed; native compiler type checking and UI verification remain outstanding. See `Documentation/VERIFICATION.md`.
-
-## 2025 finance update
-See Documentation/FINANCE-2025.md. In Dağıtım Matematiği, choose a JSON preset and click **2025 JSON verisini uygula**. The reported central-government baseline has a funding deficit and no unallocated surplus. A separately labelled what-if provides an illustrative envelope; it is not actual available money. The project includes both importable full scenarios and source/provenance JSON. Fields now update after data loading/import and show persistent labels. Your existing SwiftData plan is preserved until you explicitly apply a preset/import.
-
-## Nationwide presentation correction
-This complete project includes the populated nationwide Resources folder. Existing saved plans are retained. Result screens render the first 100 rows lazily with a button to reveal more; all 7,784 records still participate in calculation and JSON export. The overview uses eight cached service totals and labelled native SwiftUI bars instead of rebuilding Charts from thousands of records. Tab toolbar/manual/programmatic selection is synchronized, and child hosting has explicit constraints. The obsolete three-district note is removed. Stop the app, open this updated project, rebuild and run; no SwiftData reset or reimport is needed for an already-loaded scenario.
-
-## Poverty model update
-See Documentation/POVERTY-MODEL.md. Import poverty-profiles-2025.json through the dedicated Sources button to preserve current service/finance edits. The supplied SEGE-based district figures are illustrative proxies, not verified poverty measurements. Future observed rates can replace them in the same schema. Unknown is now null, not zero.
-
-## Province/district search
-Dağıtım Matematiği now has an İl / ilçe ara field immediately above the result list. It searches province/district names across the full allocation result before pagination. Turkish/ASCII spelling variants, case differences and combined queries such as İzmir Urla are supported. Changing the query resets the displayed limit to 100 matching rows; Sonraki 100 kaydı göster reveals more matching results. Clear removes the filter. No calculation, budget, source data, SwiftData record or JSON export scope is changed by searching. No resource reimport is required. Native UI verification remains to be performed on the Mac.
-
-## View-update publication correction
-Native tab selection previously wrote @Published state synchronously, and its Combine sink immediately routed native UI during the property's willSet notification. Both routing directions now pass through a coalesced next-main-queue boundary with stale-selection guards. Province/district/service framework selection setters also queue changes, rather than publishing while a native list/picker is reconciling. Data edits, calculations and persistence remain explicit and are not globally delayed. Search, poverty profiles and pagination are preserved. Native verification requires Xcode.
+- [Data contract](Documentation/DATA-CONTRACT.md)
+- [Finance data](Documentation/FINANCE-2025.md)
+- [Poverty methodology](Documentation/POVERTY-MODEL.md)
+- [Local persistence](Documentation/PERSISTENCE.md)
+- [Localization](Documentation/LOCALIZATION.md)

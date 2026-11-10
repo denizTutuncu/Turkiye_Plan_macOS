@@ -4,7 +4,7 @@ import Combine
 enum AppTab: String, CaseIterable, Identifiable {
  case overview, regions, allocation, deployment, sources
  var id: String { rawValue }
- var title: String { switch self { case .overview: "Genel Bakış"; case .regions: "İller ve İlçeler"; case .allocation: "Dağıtım Matematiği"; case .deployment: "Uygulama Planı"; case .sources: "Veri ve Kaynaklar" } }
+ var title: String { switch self { case .overview: L10n.text("Genel Bakış"); case .regions: L10n.text("İller ve İlçeler"); case .allocation: L10n.text("Dağıtım Matematiği"); case .deployment: L10n.text("Uygulama Planı"); case .sources: "Veri ve Kaynaklar" } }
  var symbol: String { switch self { case .overview: "chart.bar.xaxis"; case .regions: "map"; case .allocation: "function"; case .deployment: "list.bullet.clipboard"; case .sources: "externaldrive" } }
 }
 @MainActor protocol TabRouting: AnyObject { func select(_ tab: AppTab) }
@@ -25,7 +25,7 @@ enum AppTab: String, CaseIterable, Identifiable {
  required init?(coder: NSCoder) { fatalError("Use dependency injection") }
  override func loadView() {
   let container = NSView()
-  let host = NSHostingController(rootView: PlanningScreen(vm: viewModel, tab: tab).id(tab))
+  let host = NSHostingController(rootView: LocalizedPlanningRoot(viewModel: viewModel, tab: tab).id(tab))
   addChild(host)
   let hosted = host.view; hosted.translatesAutoresizingMaskIntoConstraints = false; container.addSubview(hosted)
   NSLayoutConstraint.activate([hosted.leadingAnchor.constraint(equalTo: container.leadingAnchor), hosted.trailingAnchor.constraint(equalTo: container.trailingAnchor), hosted.topAnchor.constraint(equalTo: container.topAnchor), hosted.bottomAnchor.constraint(equalTo: container.bottomAnchor)])
@@ -37,11 +37,22 @@ enum AppTab: String, CaseIterable, Identifiable {
  private let viewModel: PlanningViewModel
  private let router: ConcreteTabRouter
  private var subscription: AnyCancellable?
+ private var languageSubscription: AnyCancellable?
  private let deferredSelection = DeferredUIUpdates()
  init(viewModel: PlanningViewModel, router: ConcreteTabRouter) {
   self.viewModel = viewModel; self.router = router; super.init(nibName: nil, bundle: nil); tabStyle = .toolbar; router.tabController = self
   for tab in AppTab.allCases {
    let item = NSTabViewItem(viewController: ConcretePlanningViewController(viewModel: viewModel, tab: tab)); item.identifier = tab.rawValue; item.label = tab.title; item.image = NSImage(systemSymbolName: tab.symbol, accessibilityDescription: tab.title); addTabViewItem(item)
+  }
+  languageSubscription = LocalizationSettings.shared.$language.dropFirst().sink { [weak self] _ in
+   self?.deferredSelection.enqueue(key: "language") { [weak self] in
+    guard let self else { return }
+    for (index, tab) in AppTab.allCases.enumerated() {
+     self.tabViewItems[index].label = tab.title
+     self.tabViewItems[index].image = NSImage(systemSymbolName: tab.symbol, accessibilityDescription: tab.title)
+    }
+    self.view.window?.title = L10n.text("Türkiye Kamu Planı")
+   }
   }
   subscription = viewModel.$selectedTab.removeDuplicates().sink { [weak self] tab in
    self?.scheduleSelection(tab, fromToolbar: false)

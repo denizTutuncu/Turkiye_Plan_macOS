@@ -18,3 +18,7 @@ Presentation correction: detail screens now render bounded lazy pages while reta
 Poverty update: all 973 SEGE ranks mapped to app district IDs; all province rollups populated as estimates. Independent neutral-versus-weighted allocation check changed 7784 service rows and conserved the budget within need caps. Syntax/JSON checks passed. Native Swift compilation, regression tests and UI checks remain unexecuted here.
 
 View-update publication correction: source-level inspection identified synchronous native-tab publication and routing from @Published willSet. These callbacks now defer/coalesce; native list/picker selection bindings use the same guarded boundary. Async unit-test source checks no-inline execution, latest-event wins and independent selection channels. The runtime warning cannot be confirmed resolved without a native macOS run and diagnostic stack.
+
+## Twelve-language localization update
+
+Added a complete 304-key / 12-language string catalog, persistent in-app language selection, locale formatting, right-to-left SwiftUI layouts, deferred AppKit tab-title updates, and localization XCTest coverage. Existing UI smoke tests explicitly select Turkish. Static catalog/placeholder and Swift grammar checks pass; all 18 existing JSON resource files are byte-identical to the supplied archive. Native build, catalog compilation, tests and visual layout verification require Xcode on a Mac and were not executed here.
