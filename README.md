@@ -22,7 +22,7 @@ The deployment target is macOS 26.6. The app uses SwiftUI, AppKit, Combine and S
 | Implementation Plan | Unfunded requirements and estimated capital and operating coverage |
 | Data and Sources | Storage details, source attribution, JSON imports and exports |
 
-Result lists display 100 records at a time, with an action to show more. All valid records participate in calculations and exports. Province and district search filters displayed allocation results without changing the budget or calculation scope. Search supports Turkish and ASCII spelling variants and combined names such as `İzmir Urla`.
+Result lists display 100 records at a time, with an action to show more. All valid records participate in calculations and exports. Province and district search is available in Allocation Math and Implementation Plan. Each screen keeps its own query and filters the full result set before pagination, without changing the budget or calculation scope. Clearing the query restores all results; changing it resets the visible limit to 100 matching rows. Search supports Turkish and ASCII spelling variants and combined names such as `İzmir Urla`.
 
 ## Languages
 

@@ -5,6 +5,7 @@ import Combine
  @Published var scenario: Scenario?
  @Published private(set) var serviceTotals: [ServiceAllocationSummary] = []
  @Published var allocationSearch = ""
+ @Published var deploymentSearch = ""
  private var districtSearchNames: [String: String] = [:]
  private var districtNames: [String: String] = [:]
  @Published var result: AllocationResult?
@@ -170,9 +171,11 @@ import Combine
   let search = RegionSearch()
   districtSearchNames = districtNames.mapValues { search.normalize($0) }
  }
- var filteredAllocationRows: [Allocation] {
+ var filteredAllocationRows: [Allocation] { filteredRows(matching: allocationSearch) }
+ var filteredDeploymentRows: [Allocation] { filteredRows(matching: deploymentSearch) }
+ private func filteredRows(matching query: String) -> [Allocation] {
   let rows = result?.rows ?? []
-  let search = RegionSearch(); let terms = search.tokens(allocationSearch)
+  let search = RegionSearch(); let terms = search.tokens(query)
   guard !terms.isEmpty else { return rows }
   return rows.filter { row in
    let id = row.id.components(separatedBy: ":")[0]

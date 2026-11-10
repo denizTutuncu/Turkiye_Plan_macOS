@@ -35,17 +35,7 @@ struct AllocationView: View {
       Text(L10n.text("Birim tahmini = açık × tahsis ÷ gereksinim. Kesirli tahmin bir inşaat veya satın alma taahhüdü değildir.")).foregroundStyle(.secondary)
      }.font(.system(.body, design: .monospaced)).textSelection(.enabled).frame(maxWidth: .infinity, alignment: .leading).padding()
     }
-    GroupBox(L10n.text("İl / ilçe ara")) {
-     VStack(alignment: .leading, spacing: 8) {
-      HStack {
-       Image(systemName: "magnifyingglass").foregroundStyle(.secondary)
-       TextField(L10n.text("İl veya ilçe adı • ör. İzmir, Urla, İzmir Urla"), text: $vm.allocationSearch)
-        .textFieldStyle(.roundedBorder).accessibilityIdentifier("allocationRegionSearch")
-       if !vm.allocationSearch.isEmpty { Button(L10n.text("Temizle"), systemImage: "xmark.circle.fill") { vm.allocationSearch = "" } }
-      }
-      Text(L10n.text("Arama yalnızca görünen kayıtları filtreler; bütçe ve hesaplamalar tüm ilçeleri kapsamaya devam eder.")).font(.caption).foregroundStyle(.secondary)
-     }.padding(8)
-    }
+    RegionResultsSearch(query: $vm.allocationSearch, fieldIdentifier: "allocationRegionSearch")
     Text(L10n.format("search.count", String(min(visibleLimit, matchingRows.count)), String(matchingRows.count), String(vm.result?.rows.count ?? 0))).font(.caption).foregroundStyle(.secondary)
     if matchingRows.isEmpty && !(vm.result?.rows.isEmpty ?? true) {
      ContentUnavailableView(L10n.text("Eşleşen kayıt yok"), systemImage: "magnifyingglass", description: Text(L10n.text("İl veya ilçe adını kontrol edin ya da aramayı temizleyin.")))
@@ -73,12 +63,17 @@ struct DeploymentView: View {
  @ObservedObject var vm: PlanningViewModel
  @State private var visibleLimit = 100
  var body: some View {
+  let matchingRows = vm.filteredDeploymentRows
   ScrollView {
    LazyVStack(alignment: .leading, spacing: 20) {
     Text(L10n.text("Tahsis → uygulanabilir hizmet")).font(.largeTitle.bold())
     Text(L10n.text("Bu ekran finansman kapsamını gösterir. Proje onayı, ihale, personel temini ve teslim takvimi ayrıca doğrulanmalıdır.")).foregroundStyle(.secondary)
-    Text(L10n.format("rows.count", String(min(visibleLimit, vm.result?.rows.count ?? 0)), String(vm.result?.rows.count ?? 0))).font(.caption).foregroundStyle(.secondary)
-    ForEach(Array((vm.result?.rows ?? []).prefix(visibleLimit))) { row in
+    RegionResultsSearch(query: $vm.deploymentSearch, fieldIdentifier: "deploymentRegionSearch")
+    Text(L10n.format("search.count", String(min(visibleLimit, matchingRows.count)), String(matchingRows.count), String(vm.result?.rows.count ?? 0))).font(.caption).foregroundStyle(.secondary)
+    if matchingRows.isEmpty && !(vm.result?.rows.isEmpty ?? true) {
+     ContentUnavailableView(L10n.text("Eşleşen kayıt yok"), systemImage: "magnifyingglass", description: Text(L10n.text("İl veya ilçe adını kontrol edin ya da aramayı temizleyin.")))
+    }
+    ForEach(Array(matchingRows.prefix(visibleLimit))) { row in
      GroupBox(vm.districtName(row) + " • " + (vm.services.first { $0.id == row.serviceID }?.localizedName ?? row.serviceID)) {
       VStack(alignment: .leading, spacing: 12) {
        Text(L10n.text("Karşılanmayan finansman: ") + money(row.requirementCents - row.allocatedCents)).font(.headline)
@@ -93,10 +88,10 @@ struct DeploymentView: View {
       }.frame(maxWidth: .infinity, alignment: .leading).padding()
      }
     }
-    if visibleLimit < (vm.result?.rows.count ?? 0) { Button(L10n.text("Sonraki 100 kaydı göster")) { visibleLimit += 100 } }
+    if visibleLimit < matchingRows.count { Button(L10n.text("Sonraki 100 kaydı göster")) { visibleLimit += 100 } }
     Text(L10n.text("Mevcut model, ayrılmış bir bütçeyi dağıtır. Gelir tahmini, borç sürdürülebilirliği ve makroekonomik etkiler bu sürümde hesaplanmaz. Tasarruflar veya sosyal faydalar bütçe geliri olarak eklenmez.")).font(.callout).foregroundStyle(.secondary)
    }.padding(28)
-  }
+  }.onChange(of: vm.deploymentSearch) { _, _ in visibleLimit = 100 }
  }
 }
 
@@ -166,5 +161,24 @@ struct FinanceAmountField: View {
    TextField(L10n.text(title), value: $cents, format: .number.locale(L10n.locale)).textFieldStyle(.roundedBorder).accessibilityLabel(L10n.text(title))
    Text(L10n.text("kuruş • ") + money(cents)).font(.caption2).foregroundStyle(.secondary).lineLimit(2)
   }.frame(maxWidth: .infinity, alignment: .leading)
+ }
+}
+
+struct RegionResultsSearch: View {
+ @ObservedObject private var localization = LocalizationSettings.shared
+ @Binding var query: String
+ let fieldIdentifier: String
+ var body: some View {
+  GroupBox(L10n.text("İl / ilçe ara")) {
+     VStack(alignment: .leading, spacing: 8) {
+      HStack {
+       Image(systemName: "magnifyingglass").foregroundStyle(.secondary)
+       TextField(L10n.text("İl veya ilçe adı • ör. İzmir, Urla, İzmir Urla"), text: $query)
+        .textFieldStyle(.roundedBorder).accessibilityIdentifier(fieldIdentifier)
+       if !query.isEmpty { Button(L10n.text("Temizle"), systemImage: "xmark.circle.fill") { query = "" } }
+      }
+      Text(L10n.text("Arama yalnızca görünen kayıtları filtreler; bütçe ve hesaplamalar tüm ilçeleri kapsamaya devam eder.")).font(.caption).foregroundStyle(.secondary)
+     }.padding(8)
+    }
  }
 }
