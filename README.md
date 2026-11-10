@@ -3,7 +3,7 @@
 Native macOS 26.6+ app, Swift 6.2+, SwiftUI views hosted by AppKit view controllers. SwiftData persistence, MVVM, protocol-based controllers, injected data sources and tab routing. No third-party runtime dependencies.
 
 ## Open the integrated project
-Unzip and open **TurkiyePlan.xcodeproj**. Choose the shared **TurkiyePlan** scheme, select **My Mac**, and Run. Use Product → Test to run the existing test targets with the added tests.
+Choose the shared **TurkiyePlan** scheme, select **My Mac**, and Run. Use Product → Test to run the existing test targets with the added tests.
 
 This is your supplied Xcode template with sources integrated. Your app/test target IDs, signing team, bundle identifiers, asset catalog and macOS 26.6 deployment target are preserved. The original modern `project.xcproj` format is preserved; use the Xcode version that created your template or a newer version supporting that format.
 
