@@ -91,11 +91,11 @@ struct AllocationBreakdown: View {
       ReviewValue(key: "Maliyetlerin fiyat yılı", value: String(r.referenceYear))
       ReviewValue(key: "Durum", value: L10n.text(vm.scenario?.isDemo == true ? "review.estimateInputs" : "review.unverifiedInputs"))
      }
-     Text(r.source).font(.caption).textSelection(.enabled)
+     EvidenceText(original: r.source).font(.caption)
      if let profile = vm.povertyProfile(for: r.districtID) {
       Text(L10n.text(profile.status) + " • " + String(profile.referenceYear) + " • " + profile.definitionID).font(.caption)
       Text(profile.sourceURL).font(.caption).textSelection(.enabled)
-      Text(profile.method).font(.caption).foregroundStyle(.secondary).textSelection(.enabled)
+      EvidenceText(original: profile.method).font(.caption)
      }
     }.padding(.top, 8)
    }
@@ -163,7 +163,7 @@ struct ScenarioSummaryColumn: View {
  let result: AllocationResult
  var body: some View {
   VStack(alignment: .leading, spacing: 8) {
-   Text(snapshot.name).font(.headline)
+   Text(L10n.text(snapshot.name)).font(.headline)
    if snapshot.scenario.isDemo { Text(L10n.text("SENTETİK DEMO")).font(.caption).foregroundStyle(.orange) }
    ReviewValue(key: "Plan bütçesi", value: money(snapshot.scenario.budgetCents))
    ReviewValue(key: "Dağıtılan", value: money(snapshot.scenario.budgetCents - result.unallocatedCents))

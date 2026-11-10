@@ -35,7 +35,7 @@ struct SourcesView: View {
     if let source = vm.geography?.source {
      GroupBox(L10n.text("Coğrafya kaynağı")) {
       VStack(alignment: .leading, spacing: 8) {
-       Text(source.title).bold(); Text(L10n.text("Kaynak tarihi: ") + source.snapshot); Text(source.verification)
+       Text(source.title).bold(); Text(L10n.text("Kaynak tarihi: ") + source.snapshot); Text(L10n.text(source.verification))
        Text(L10n.text("Revizyon: ") + source.revision).font(.caption).textSelection(.enabled)
        if let url = URL(string: source.url) { Link(L10n.text("Kaynak ve lisans"), destination: url) }
        Text(L10n.text("Kaynak kimlikleri resmî TÜİK/UAVT kodları değildir. İsimlerde yalnızca birleşik noktalı i normalizasyonu uygulandı. Resmî veri entegrasyonunda kimlik eşleme tablosu gerekir.")).font(.caption).foregroundStyle(.secondary)

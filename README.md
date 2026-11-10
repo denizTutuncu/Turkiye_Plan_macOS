@@ -30,7 +30,7 @@ The globe menu and Settings provide English, Türkçe, Español, Italiano, 简�
 
 The language preference is saved locally. The default follows supported system language preferences, with English as the fallback. Arabic and Urdu use right-to-left SwiftUI layouts. Numbers, currency and dates follow the selected locale; currency remains TRY.
 
-Translations are maintained in `TurkiyePlan/Resources/Localizable.xcstrings`. Province and district names, custom scenario names, imported source descriptions and provenance notes remain in their original language. Native macOS dialogs follow macOS application language settings.
+Translations are maintained in `TurkiyePlan/Resources/Localizable.xcstrings`. Bundled scenario captions, finance preset names, finance titles and explanatory notes are translated for display. Province and district names and custom scenario names remain unchanged. Source evidence has localized summaries with expandable original text; editable source and method fields retain their original content. Native macOS dialogs follow macOS application language settings.
 
 ## Data and scenarios
 

@@ -17,6 +17,7 @@ struct PovertyProfileEditor: View {
    TextField(L10n.text("Karşılaştırılabilir tanım kimliği"), text: $definition)
    TextField(L10n.text("Kaynak URL"), text: $source)
    TextField(L10n.text("Ölçüm / tahmin yöntemi ve sınırları"), text: $method)
+   Text(L10n.text("evidence.editOriginal")).font(.caption).foregroundStyle(.secondary)
    Text(L10n.text("Gözlem olarak işaretlemek, uygulamanın kaynağı bağımsız doğruladığı anlamına gelmez. Harcama veya SEGE skoru doğrudan bir yoksulluk yüzdesi değildir.")).font(.caption).foregroundStyle(.secondary)
    Button(L10n.text("İlçe yoksulluk profilini kaydet ve hesapla")) {
     if !rate.isEmpty && Double(rate) == nil { vm.error = "Oranı 0–1 arasında noktalı ondalık olarak girin."; return }

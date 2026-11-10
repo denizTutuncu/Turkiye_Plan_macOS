@@ -130,6 +130,7 @@ struct RecordEditor: View {
    }
    Section(L10n.text("Kaynak")) {
     TextField(L10n.text("Kaynak / veri seti / yöntem"), text: $record.source)
+    Text(L10n.text("evidence.editOriginal")).font(.caption).foregroundStyle(.secondary)
     TextField(L10n.text("Maliyetlerin fiyat yılı"), value: $record.referenceYear, format: .number.locale(L10n.locale).grouping(.never))
     Text(L10n.format("price.year.note", String(vm.scenario?.priceYear ?? 0))).font(.caption).foregroundStyle(.secondary)
     Text(L10n.text("Yeni alanlardaki sıfırlar gözlem değildir. Kaynak girilmeden kayıt kabul edilmez.")).font(.caption).foregroundStyle(.secondary)
@@ -172,7 +173,7 @@ struct PopulationSummary: View {
       Spacer()
       if let province = vm.populationObservation(for: district.provinceID), let total = province.value { Text(L10n.text("İl toplamı: ") + number(total)).font(.caption) }
      }
-     Text(observed.source).font(.caption2).foregroundStyle(.secondary).lineLimit(2).help(observed.source).textSelection(.enabled)
+     EvidenceText(original: observed.source).font(.caption2)
     } else {
      Text(L10n.text("Nüfus gözlemi yüklenmemiş; 0 kişi olduğu anlamına gelmez.")).foregroundStyle(.orange)
      PopulationImportButton(vm: vm)

@@ -17,8 +17,9 @@ struct IndicatorEditor: View {
     Toggle(L10n.text("İl düzeyinde kaydet (kapalıysa ilçe)"), isOn: $provinceLevel)
     Picker(L10n.text("Gösterge"), selection: $indicatorID) { ForEach(vm.indicators) { Text($0.localizedName + " • " + $0.localizedUnit).tag($0.id) } }
     TextField(L10n.text("Değer • boş = bilinmiyor • ondalık ayıracı nokta"), text: $valueText)
-    TextField(L10n.text("Referans yılı"), value: $year, format: .number.locale(L10n.locale))
+    TextField(L10n.text("Referans yılı"), value: $year, format: .number.locale(L10n.locale).grouping(.never))
     TextField(L10n.text("Kaynak, tanım ve fiyat yılı / yöntem"), text: $source)
+    Text(L10n.text("evidence.editOriginal")).font(.caption).foregroundStyle(.secondary)
     Button(L10n.text("Göstergeyi kaydet")) {
      if !valueText.isEmpty && Double(valueText) == nil { vm.error = "Geçerli bir sayı girin veya bilinmiyor için boş bırakın."; return }
      vm.saveObservation(IndicatorObservation(geographyID: geographyID, indicatorID: indicatorID, referenceYear: year, value: Double(valueText), source: source))
@@ -28,7 +29,7 @@ struct IndicatorEditor: View {
      VStack(alignment: .leading) {
       Text((vm.indicators.first { $0.id == row.indicatorID }?.localizedName ?? row.indicatorID) + " • " + String(row.referenceYear)).bold()
       Text(row.value.map(number) ?? L10n.text("Bilinmiyor"))
-      Text(row.source).font(.caption).foregroundStyle(.secondary)
+      EvidenceText(original: row.source).font(.caption)
       Button(L10n.text("Düzenle")) { indicatorID = row.indicatorID; valueText = row.value.map { String($0) } ?? ""; source = row.source; year = row.referenceYear }
      }.padding(.vertical, 6)
     }

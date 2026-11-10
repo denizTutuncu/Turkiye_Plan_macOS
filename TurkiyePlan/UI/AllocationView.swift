@@ -137,10 +137,10 @@ struct FinanceEditor: View {
       if f.fundingGapCents > 0 { Text(L10n.text("Finansman açığı: ") + money(f.fundingGapCents)).bold().foregroundStyle(.orange) }
      }
      if let metadata = f.provenance {
-      Text(metadata.title + " • " + String(metadata.referenceYear)).font(.headline)
+      Text(L10n.text(metadata.title) + " • " + String(metadata.referenceYear)).font(.headline)
       Text(metadata.status == "reported" ? L10n.text("YAYIMLANAN GERÇEKLEŞME • merkezi yönetim bütçesi") : L10n.text("VARSAYIM / KULLANICI GİRDİSİ • doğrulanmış serbest ödenek değildir")).font(.caption.bold()).foregroundStyle(metadata.status == "reported" ? Color.secondary : Color.orange)
       if let url = URL(string: metadata.sourceURL) { Link(L10n.text("Kaynak tablo"), destination: url) }
-      DisclosureGroup(L10n.text("Kapsam, eşleme ve varsayımlar")) { ForEach(metadata.notes, id: \.self) { Text($0).font(.caption).frame(maxWidth: .infinity, alignment: .leading).padding(.vertical, 3) } }
+      DisclosureGroup(L10n.text("Kapsam, eşleme ve varsayımlar")) { ForEach(metadata.notes, id: \.self) { EvidenceText(original: $0).font(.caption).frame(maxWidth: .infinity, alignment: .leading).padding(.vertical, 3) } }
      }
     } else { Text(L10n.text("Finansman verisi yok. Yukarıdan 2025 JSON veri setini uygulayın.")).foregroundStyle(.orange) }
    }.padding()
@@ -148,8 +148,10 @@ struct FinanceEditor: View {
    .onChange(of: vm.scenario?.finances) { _, _ in sync() }
  }
  private func sync() {
-  if let current = vm.scenario?.finances { envelope = current }
-  if selectedPresetID.isEmpty { selectedPresetID = vm.financePresets.first?.id ?? "" }
+  if let current = vm.scenario?.finances {
+   envelope = current
+   selectedPresetID = vm.financePresets.first { $0.finances == current }?.id ?? ""
+  } else { selectedPresetID = "" }
  }
 }
 struct FinanceAmountField: View {

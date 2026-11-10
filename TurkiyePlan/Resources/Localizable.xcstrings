@@ -27612,6 +27612,2424 @@
           }
         }
       }
+    },
+    "2025 DEMO • tüm ilçe/hizmetler • varsayımsal ihtiyaç, maliyet ve finansman • SEGE tabanlı yoksulluk VARSAYIMI": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • tüm ilçe/hizmetler • varsayımsal ihtiyaç, maliyet ve finansman • SEGE tabanlı yoksulluk VARSAYIMI"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • all districts/services • assumed demand, costs and funding • SEGE-based poverty ASSUMPTION"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO 2025 • todos los distritos/servicios • demanda, costes y fondos supuestos • pobreza SUPUESTA basada en SEGE"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO 2025 • tutti i distretti/servizi • fabbisogni, costi e fondi ipotizzati • povertà IPOTETICA da SEGE"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025演示 • 全部区县及服务 • 需求、成本和资金假设 • 基于SEGE的贫困假设"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • सभी ज़िले/सेवाएँ • मांग, लागत व वित्त धारणाएँ • SEGE आधारित गरीबी धारणा"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO 2025 • جميع الأقضية والخدمات • طلب وتكاليف وتمويل مفترض • افتراض فقر مبني على SEGE"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DÉMO 2025 • tous districts/services • besoins, coûts et financement supposés • pauvreté HYPOTHÉTIQUE SEGE"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • সব জেলা/পরিষেবা • অনুমিত চাহিদা, খরচ ও অর্থায়ন • SEGE ভিত্তিক দারিদ্র্য অনুমান"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO 2025 • todos os distritos/serviços • demanda, custos e fundos presumidos • pobreza HIPOTÉTICA SEGE"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ДЕМО 2025 • все районы/услуги • допущения спроса, затрат и средств • ДОПУЩЕНИЕ бедности по SEGE"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • تمام اضلاع/خدمات • فرضی طلب، لاگت و مالی وسائل • SEGE پر غربت مفروضہ"
+          }
+        }
+      }
+    },
+    "2025 bazında varsayımsal yeniden önceliklendirme": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 bazında varsayımsal yeniden önceliklendirme"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypothetical reprioritization using the 2025 baseline"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repriorización hipotética con base en 2025"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ridefinizione ipotetica delle priorità su base 2025"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "基于2025基准的假设性重新排序"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 आधार पर काल्पनिक पुनर्प्राथमिकता"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إعادة ترتيب افتراضية وفق أساس 2025"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réaffectation hypothétique sur la base 2025"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 ভিত্তিতে অনুমিত পুনঃঅগ্রাধিকার"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repriorização hipotética com base em 2025"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гипотетическая смена приоритетов на базе 2025"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 بنیاد پر فرضی ترجیحات کی تبدیلی"
+          }
+        }
+      }
+    },
+    "Kaynak: SBB Ocak 2026 MYB tablosu, sayfa 1, 2025 Yıllık Gerç. sütunu. Tutarlar milyon TL düzeyinde yayımlanmıştır; kuruşa ölçeklemek ek doğruluk sağlamaz.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynak: SBB Ocak 2026 MYB tablosu, sayfa 1, 2025 Yıllık Gerç. sütunu. Tutarlar milyon TL düzeyinde yayımlanmıştır; kuruşa ölçeklemek ek doğruluk sağlamaz."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source: SBB January 2026 central budget table, page 1, 2025 annual outturn column. Figures were published in millions of TRY; converting to kuruş adds no precision."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuente: SBB, enero 2026, presupuesto central, página 1, ejecución anual 2025. Publicado en millones de TRY; convertir a kuruş no añade precisión."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fonte: SBB gennaio 2026, bilancio centrale, pagina 1, consuntivo annuo 2025. Milioni di TRY; convertire in kuruş non aumenta la precisione."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "来源：SBB 2026年1月中央预算表第1页，2025年度实际列。原值为百万TRY，换算库鲁什不增加精度。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "स्रोत: SBB जनवरी 2026 केंद्रीय बजट, पृष्ठ 1, 2025 वार्षिक वास्तविक कॉलम। राशि मिलियन TRY में है; कुरुश में बदलने से सटीकता नहीं बढ़ती।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المصدر: جدول SBB يناير 2026 للميزانية المركزية، صفحة 1، عمود نتائج 2025 السنوية. الأرقام بملايين TRY؛ التحويل إلى قروش لا يزيد الدقة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source : tableau budgétaire central SBB janvier 2026, page 1, réalisations annuelles 2025. Montants en millions TRY ; conversion en kuruş sans précision supplémentaire."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "উৎস: SBB জানুয়ারি 2026 কেন্দ্রীয় বাজেট, পৃষ্ঠা 1, 2025 বার্ষিক বাস্তব ফল। মিলিয়ন TRY-এ প্রকাশিত; kuruş-এ বদলালে নির্ভুলতা বাড়ে না।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fonte: SBB janeiro 2026, orçamento central, página 1, execução anual 2025. Milhões de TRY; converter em kuruş não acrescenta precisão."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Источник: SBB январь 2026, центральный бюджет, стр. 1, годовой факт 2025. Миллионы TRY; пересчёт в куруши не повышает точность."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماخذ: SBB جنوری 2026 مرکزی بجٹ، صفحہ 1، 2025 سالانہ اصل اعداد۔ ملین TRY میں شائع؛ کروش میں بدلنے سے درستگی نہیں بڑھتی۔"
+          }
+        }
+      }
+    },
+    "Bütçe gelirleri toplamı ilk alanda yer alır; toplam gelire ilave dış transfer eklenmez. externalTransfersCents=0, ayrı bir ek finansman akışı varsayılmadığı anlamındadır.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bütçe gelirleri toplamı ilk alanda yer alır; toplam gelire ilave dış transfer eklenmez. externalTransfersCents=0, ayrı bir ek finansman akışı varsayılmadığı anlamındadır."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The first field includes total budget revenue. No extra external transfer is added. externalTransfersCents=0 means no separate additional funding flow is assumed."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El primer campo incluye ingresos totales. Sin transferencia externa extra. externalTransfersCents=0 significa que no se supone financiación adicional separada."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il primo campo include tutte le entrate. Nessun trasferimento extra. externalTransfersCents=0 significa nessun flusso aggiuntivo separato ipotizzato."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "首字段含全部预算收入，不另加外部转移。externalTransfersCents=0表示未假设独立额外资金流。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पहले क्षेत्र में कुल बजट राजस्व है। अतिरिक्त बाहरी हस्तांतरण नहीं। externalTransfersCents=0 का अर्थ अलग अतिरिक्त वित्त प्रवाह की धारणा नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الحقل الأول يشمل إجمالي الإيرادات. لا يضاف تحويل خارجي آخر. externalTransfersCents=0 يعني عدم افتراض تمويل إضافي منفصل."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le premier champ inclut toutes les recettes. Aucun transfert externe supplémentaire. externalTransfersCents=0 signifie aucun flux additionnel distinct supposé."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "প্রথম ঘরে মোট বাজেট রাজস্ব। বাড়তি বহিঃহস্তান্তর নেই। externalTransfersCents=0 মানে আলাদা অতিরিক্ত অর্থপ্রবাহ অনুমিত নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O primeiro campo inclui toda a receita. Sem transferência externa extra. externalTransfersCents=0 indica nenhum fluxo adicional separado presumido."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Первое поле включает все доходы. Доп. внешний трансферт не добавлен. externalTransfersCents=0 означает отсутствие допущения отдельного потока средств."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پہلے خانے میں کل بجٹ آمدنی ہے۔ اضافی بیرونی منتقلی نہیں۔ externalTransfersCents=0 کا مطلب الگ اضافی مالی بہاؤ فرض نہیں۔"
+          }
+        }
+      }
+    },
+    "Taahhüt alanı bu geriye dönük bazda faiz dışı gerçekleşmiş harcamayı temsil eder; geleceğin hukuken bağlayıcı yükümlülük envanteri değildir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taahhüt alanı bu geriye dönük bazda faiz dışı gerçekleşmiş harcamayı temsil eder; geleceğin hukuken bağlayıcı yükümlülük envanteri değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In this historical baseline, commitments represent actual non-interest spending, not an inventory of future legally binding obligations."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En esta base histórica, compromisos representa gasto sin intereses ejecutado, no obligaciones futuras jurídicamente vinculantes."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In questa base storica, gli impegni rappresentano spese effettive senza interessi, non obblighi futuri vincolanti."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此历史基准中，承诺字段代表实际非利息支出，并非未来法律约束义务清单。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इस ऐतिहासिक आधार में प्रतिबद्धता वास्तविक ब्याज रहित खर्च है, भविष्य की कानूनी बाध्यताओं की सूची नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الالتزامات في هذا الأساس التاريخي تمثل الإنفاق الفعلي دون الفوائد، لا قائمة الالتزامات القانونية المستقبلية."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dans cette base historique, les engagements représentent les dépenses réalisées hors intérêts, pas des obligations juridiques futures."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "এই ঐতিহাসিক ভিত্তিতে দায়বদ্ধতা বাস্তব সুদবহির্ভূত ব্যয়, ভবিষ্যতের আইনগত বাধ্যবাধকতার তালিকা নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nesta base histórica, compromissos representam despesa realizada sem juros, não obrigações legais futuras."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В исторической базе обязательства означают фактические расходы без процентов, а не перечень будущих юридических обязательств."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اس تاریخی بنیاد میں وعدے اصل غیر سودی خرچ ہیں، مستقبل کی قانونی ذمہ داریوں کی فہرست نہیں۔"
+          }
+        }
+      }
+    },
+    "debtServiceCents bu kaynakta yalnızca faiz gideridir; borç anapara itfalarını içermez. Bu veri bir nakit borç servisi tablosu değildir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "debtServiceCents bu kaynakta yalnızca faiz gideridir; borç anapara itfalarını içermez. Bu veri bir nakit borç servisi tablosu değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Here debtServiceCents includes interest only, not principal repayments. This is not a cash debt-service schedule."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aquí debtServiceCents incluye solo intereses, no amortización de principal. No es un calendario de servicio de deuda en efectivo."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qui debtServiceCents include solo interessi, non rimborsi del capitale. Non è un piano di cassa del debito."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此处debtServiceCents仅含利息，不含本金偿还。并非现金偿债日程。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "यहाँ debtServiceCents केवल ब्याज है, मूलधन भुगतान नहीं। यह नकद ऋण सेवा समय-सारणी नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يشمل debtServiceCents هنا الفوائد فقط دون سداد الأصل. ليس جدول خدمة دين نقدي."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ici debtServiceCents comprend uniquement les intérêts, hors principal. Ce n’est pas un échéancier de trésorerie de la dette."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "এখানে debtServiceCents শুধু সুদ, মূলধন ফেরত নয়। এটি নগদ ঋণসেবার সময়সূচি নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aqui debtServiceCents inclui só juros, não principal. Não é cronograma de serviço da dívida em caixa."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Здесь debtServiceCents включает лишь проценты, не погашение основной суммы. Это не график денежных выплат по долгу."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یہاں debtServiceCents صرف سود ہے، اصل رقم کی ادائیگی نہیں۔ یہ نقد قرض خدمت کا شیڈول نہیں۔"
+          }
+        }
+      }
+    },
+    "reserveCents=0, bu analizde ek rezerv kesintisi yapılmadığı anlamındadır; devletin rezerv stokunun sıfır olduğu iddiası değildir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0, bu analizde ek rezerv kesintisi yapılmadığı anlamındadır; devletin rezerv stokunun sıfır olduğu iddiası değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 means no additional reserve deduction in this analysis, not that government reserve holdings are zero."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 indica sin deducción adicional de reserva, no reservas públicas nulas."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 indica nessuna ulteriore deduzione, non riserve pubbliche pari a zero."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0表示此分析不额外扣储备，不表示政府储备为零。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 का अर्थ अतिरिक्त आरक्षित कटौती नहीं, सरकारी भंडार शून्य नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 يعني لا خصم احتياطي إضافي، وليس انعدام احتياطيات الدولة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 signifie aucune déduction supplémentaire, pas des réserves publiques nulles."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 মানে অতিরিক্ত সংরক্ষণ কর্তন নেই, সরকারি মজুত শূন্য নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 indica nenhuma dedução extra, não reservas públicas zeradas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 означает отсутствие доп. вычета, а не нулевые резервы государства."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "reserveCents=0 یعنی اضافی ذخیرہ کٹوتی نہیں، سرکاری ذخائر صفر نہیں۔"
+          }
+        }
+      }
+    },
+    "Bu kapsam merkezi yönetimdir. Belediyeler, SGK ve tüm kamu işletmelerinin konsolide toplamı değildir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu kapsam merkezi yönetimdir. Belediyeler, SGK ve tüm kamu işletmelerinin konsolide toplamı değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scope: central government only, not consolidated municipalities, social security and all public enterprises."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo gobierno central; no incluye consolidación de municipios, seguridad social y empresas públicas."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo governo centrale; non include il consolidato di comuni, previdenza e imprese pubbliche."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "范围仅中央政府，非市政、社保及全部公企的合并总额。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दायरा केवल केंद्र सरकार; नगरपालिकाओं, सामाजिक सुरक्षा और सार्वजनिक उद्यमों का समेकित कुल नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "النطاق الحكومة المركزية فقط، لا إجمالي البلديات والضمان الاجتماعي وجميع المؤسسات العامة الموحد."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Périmètre : État central uniquement, pas le total consolidé des communes, sécurité sociale et entreprises publiques."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "শুধু কেন্দ্রীয় সরকার; পৌরসভা, সামাজিক নিরাপত্তা ও সব সরকারি প্রতিষ্ঠানের সমন্বিত মোট নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Só governo central; não o consolidado de municípios, seguridade e empresas públicas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Только центральное правительство, не консолидированные муниципалитеты, соцстрахование и госпредприятия."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صرف مرکزی حکومت؛ بلدیات، سماجی تحفظ اور سب سرکاری اداروں کا یکجا کل نہیں۔"
+          }
+        }
+      }
+    },
+    "2025 harcamaları gelirden yüksek olduğundan bu bazda ek kullanılabilir bütçe sıfırdır; açık ayrıca gösterilir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 harcamaları gelirden yüksek olduğundan bu bazda ek kullanılabilir bütçe sıfırdır; açık ayrıca gösterilir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 spending exceeded revenue, so this baseline has no extra available budget; the deficit is shown separately."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El gasto 2025 superó ingresos; no hay presupuesto extra disponible. El déficit se muestra aparte."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spese 2025 superiori alle entrate; nessun budget aggiuntivo. Disavanzo mostrato separatamente."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025支出超过收入，此基准无额外可用预算；赤字单列。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 खर्च राजस्व से अधिक; अतिरिक्त बजट शून्य। घाटा अलग दिखाया है।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إنفاق 2025 تجاوز الإيرادات؛ لا ميزانية إضافية متاحة، والعجز منفصل."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dépenses 2025 supérieures aux recettes ; aucun budget additionnel disponible, déficit affiché séparément."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 ব্যয় রাজস্বের বেশি; বাড়তি বাজেট নেই। ঘাটতি আলাদা দেখানো।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Despesa 2025 excedeu receita; sem orçamento extra disponível. Déficit separado."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Расходы 2025 превысили доходы; дополнительного бюджета нет. Дефицит показан отдельно."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 خرچ آمدنی سے زیادہ؛ اضافی دستیاب بجٹ نہیں۔ خسارہ الگ ہے۔"
+          }
+        }
+      }
+    },
+    "YALNIZCA SENARYO: faiz dışı harcamanın %20’si yeniden önceliklendirmeye açılır ve gelirin %1’i ek rezerv olarak ayrılır. Bunlar önerilmiş/onanmış tasarruflar değildir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YALNIZCA SENARYO: faiz dışı harcamanın %20’si yeniden önceliklendirmeye açılır ve gelirin %1’i ek rezerv olarak ayrılır. Bunlar önerilmiş/onanmış tasarruflar değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SCENARIO ONLY: reprioritize 20% of non-interest spending and set aside 1% of revenue as an extra reserve. These are not proposed or approved savings."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SOLO ESCENARIO: repriorizar 20% del gasto sin intereses y reservar 1% de ingresos. No son ahorros propuestos ni aprobados."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SOLO SCENARIO: riassegna il 20% delle spese senza interessi e riserva l’1% delle entrate. Non sono risparmi proposti o approvati."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅情景：重新排序20%非利息支出，并将收入1%额外储备。非已提出或批准的节约。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "केवल परिदृश्य: 20% ब्याज रहित खर्च पुनर्प्राथमिक करें और 1% राजस्व अतिरिक्त आरक्षित रखें। ये प्रस्तावित या स्वीकृत बचत नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سيناريو فقط: إعادة ترتيب 20% من الإنفاق دون الفوائد واحتياطي إضافي 1% من الإيراد. ليست وفورات مقترحة أو معتمدة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SCÉNARIO UNIQUEMENT : réaffecter 20 % des dépenses hors intérêts et réserver 1 % des recettes. Pas des économies proposées ou approuvées."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "শুধু দৃশ্যকল্প: 20% সুদবহির্ভূত ব্যয় পুনর্বিন্যাস ও রাজস্বের 1% অতিরিক্ত সংরক্ষণ। প্রস্তাবিত বা অনুমোদিত সাশ্রয় নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SÓ CENÁRIO: repriorizar 20% da despesa sem juros e reservar 1% da receita. Não são economias propostas ou aprovadas."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ТОЛЬКО СЦЕНАРИЙ: сменить приоритеты 20% расходов без процентов и отложить 1% доходов. Это не предложенная или одобренная экономия."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صرف منظرنامہ: 20% غیر سودی خرچ کی ترجیح بدلیں اور آمدنی 1% اضافی ذخیرہ کریں۔ یہ مجوزہ یا منظور بچت نہیں۔"
+          }
+        }
+      }
+    },
+    "Hangi programların nasıl değiştirileceği ve bunun hizmet etkileri değerlendirilmedi. Bu tutar tahsil edilmiş ek gelir veya doğrulanmış serbest ödenek değildir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hangi programların nasıl değiştirileceği ve bunun hizmet etkileri değerlendirilmedi. Bu tutar tahsil edilmiş ek gelir veya doğrulanmış serbest ödenek değildir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Program changes and service impacts have not been assessed. This amount is neither collected extra revenue nor verified uncommitted funding."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambios de programas e impactos no evaluados. No es ingreso extra recaudado ni fondos libres verificados."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiamenti e impatti sui servizi non valutati. Non è entrata aggiuntiva riscossa né fondi liberi verificati."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未评估项目变化及服务影响。金额不是已收额外收入或经核实自由拨款。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "कार्यक्रम बदलाव और सेवा प्रभाव जाँचे नहीं गए। यह वसूला अतिरिक्त राजस्व या सत्यापित मुक्त निधि नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لم تُقيّم تغييرات البرامج وآثار الخدمات. ليس إيرادًا إضافيًا محصلًا ولا تمويلًا حرًا موثقًا."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Changements de programmes et effets non évalués. Ni recettes supplémentaires perçues ni fonds libres vérifiés."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "কর্মসূচির পরিবর্তন ও প্রভাব মূল্যায়িত নয়। আদায়কৃত বাড়তি রাজস্ব বা যাচাইকৃত মুক্ত তহবিল নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mudanças de programas e impactos não avaliados. Não é receita extra arrecadada nem verba livre verificada."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменения программ и эффекты не оценены. Это не собранный доп. доход и не подтверждённые свободные средства."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پروگرام تبدیلی اور خدمات اثرات نہیں جانچے۔ یہ وصول اضافی آمدنی یا تصدیق شدہ آزاد رقم نہیں۔"
+          }
+        }
+      }
+    },
+    "Mevcut hizmet harcamalarının bir kısmını yeni programlara taşımak aynı harcamayı iki kez finanse etmemelidir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mevcut hizmet harcamalarının bir kısmını yeni programlara taşımak aynı harcamayı iki kez finanse etmemelidir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moving existing service spending to new programs must not finance the same spending twice."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trasladar gasto a nuevos programas no debe financiarlo dos veces."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spostare spese esistenti non deve finanziarle due volte."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "现有服务支出转到新项目时不可重复资助同笔支出。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मौजूदा सेवा खर्च नए कार्यक्रमों में ले जाने से वही खर्च दो बार वित्तपोषित न हो।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نقل إنفاق الخدمات لبرامج جديدة يجب ألا يمول الإنفاق نفسه مرتين."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réaffecter des dépenses aux nouveaux programmes ne doit pas les financer deux fois."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পুরোনো পরিষেবা ব্যয় নতুন কর্মসূচিতে নিয়ে একই খরচ দুবার অর্থায়ন নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover despesas a novos programas não deve financiá-las duas vezes."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перенос расходов в новые программы не должен финансировать их дважды."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "موجودہ خرچ نئے پروگراموں کو دیتے ہوئے ایک خرچ دو بار مالی نہ ہو۔"
+          }
+        }
+      }
+    },
+    "Bir yıllık mali zarf, sürekli/multi-yıl harcama taahhüdüne otomatik finansman sağlamaz.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir yıllık mali zarf, sürekli/multi-yıl harcama taahhüdüne otomatik finansman sağlamaz."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A one-year funding envelope does not automatically fund ongoing or multi-year commitments."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un fondo anual no financia automáticamente compromisos continuos o plurianuales."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un plafond annuale non finanzia automaticamente impegni continuativi o pluriennali."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一年资金不能自动资助持续或多年承诺。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "एक वर्ष की राशि लगातार या बहुवर्षीय प्रतिबद्धता अपने आप नहीं भरती।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مظروف سنة واحدة لا يمول تلقائيًا التزامات مستمرة أو متعددة السنوات."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une enveloppe annuelle ne finance pas automatiquement des engagements continus ou pluriannuels."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "এক বছরের তহবিল চলমান বা বহু বছরের দায় নিজে অর্থায়ন করে না।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verba de um ano não financia automaticamente compromissos contínuos ou plurianuais."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Годовой объём не финансирует автоматически постоянные или многолетние обязательства."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ایک سال کی رقم خود جاری یا کئی سال کے وعدے پورے نہیں کرتی۔"
+          }
+        }
+      }
+    },
+    "2025 RAPORLANAN BÜTÇE + tüm ilçelerde VARSAYIMSAL hizmet girdileri • SEGE tabanlı yoksulluk VARSAYIMI": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 RAPORLANAN BÜTÇE + tüm ilçelerde VARSAYIMSAL hizmet girdileri • SEGE tabanlı yoksulluk VARSAYIMI"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 REPORTED BUDGET + ASSUMED service inputs for all districts • SEGE-based poverty ASSUMPTION"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PRESUPUESTO PUBLICADO 2025 + servicios SUPUESTOS en todos los distritos • pobreza SUPUESTA SEGE"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BILANCIO PUBBLICATO 2025 + servizi IPOTIZZATI in tutti i distretti • povertà IPOTETICA SEGE"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025公布预算 + 全区县假设服务输入 • SEGE贫困假设"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 प्रकाशित बजट + सभी ज़िलों में अनुमानित सेवा इनपुट • SEGE गरीबी धारणा"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ميزانية 2025 منشورة + مدخلات خدمات مفترضة لكل الأقضية • افتراض فقر SEGE"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BUDGET PUBLIÉ 2025 + services SUPPOSÉS pour tous districts • pauvreté HYPOTHÉTIQUE SEGE"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 প্রকাশিত বাজেট + সব জেলায় অনুমিত পরিষেবা • SEGE দারিদ্র্য অনুমান"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ORÇAMENTO PUBLICADO 2025 + serviços PRESUMIDOS em todos os distritos • pobreza HIPOTÉTICA SEGE"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "БЮДЖЕТ 2025 ПО ОТЧЁТУ + ДОПУЩЕНИЯ услуг во всех районах • ДОПУЩЕНИЕ бедности SEGE"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 شائع بجٹ + سب اضلاع میں فرضی خدمات • SEGE غربت مفروضہ"
+          }
+        }
+      }
+    },
+    "2025 merkezi yönetim bütçesi • yayımlanan yıllık gerçekleşme": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 merkezi yönetim bütçesi • yayımlanan yıllık gerçekleşme"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 central government budget • published annual outturn"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Presupuesto central 2025 • ejecución anual publicada"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bilancio centrale 2025 • consuntivo annuale pubblicato"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025中央政府预算 • 公布年度实际"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 केंद्रीय बजट • प्रकाशित वार्षिक वास्तविक आँकड़े"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ميزانية الحكومة المركزية 2025 • نتائج سنوية منشورة"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Budget central 2025 • réalisations annuelles publiées"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 কেন্দ্রীয় বাজেট • প্রকাশিত বার্ষিক বাস্তব ফল"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orçamento central 2025 • execução anual publicada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Центральный бюджет 2025 • опубликованный годовой факт"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 مرکزی بجٹ • شائع سالانہ اصل اعداد"
+          }
+        }
+      }
+    },
+    "2025 gerçekleşme • kaynaklı nüfus ve merkezi bütçe": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 gerçekleşme • kaynaklı nüfus ve merkezi bütçe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 outturn • sourced population and central budget"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejecución 2025 • población y presupuesto central con fuente"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consuntivo 2025 • popolazione e bilancio centrale documentati"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025实际 • 有来源人口和中央预算"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 वास्तविक • स्रोत वाली जनसंख्या व केंद्रीय बजट"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نتائج 2025 • سكان وميزانية مركزية موثقان"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réalisations 2025 • population et budget central sourcés"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 বাস্তব ফল • উৎসযুক্ত জনসংখ্যা ও কেন্দ্রীয় বাজেট"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Execução 2025 • população e orçamento central com fonte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Факт 2025 • население и центральный бюджет с источниками"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 اصل اعداد • ماخذ والی آبادی اور مرکزی بجٹ"
+          }
+        }
+      }
+    },
+    "2025 gerçekleşme • ek bütçe yok": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 gerçekleşme • ek bütçe yok"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 outturn • no extra budget"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejecución 2025 • sin presupuesto extra"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consuntivo 2025 • nessun budget extra"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025实际 • 无额外预算"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 वास्तविक • अतिरिक्त बजट नहीं"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نتائج 2025 • لا ميزانية إضافية"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réalisations 2025 • aucun budget supplémentaire"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 বাস্তব ফল • বাড়তি বাজেট নেই"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Execução 2025 • sem orçamento extra"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Факт 2025 • без дополнительного бюджета"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 اصل اعداد • اضافی بجٹ نہیں"
+          }
+        }
+      }
+    },
+    "2025 varsayımsal %20 yeniden önceliklendirme": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 varsayımsal %20 yeniden önceliklendirme"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 hypothetical 20% reprioritization"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repriorización hipotética del 20% en 2025"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ridefinizione ipotetica del 20% nel 2025"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025假设性20%重新排序"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 काल्पनिक 20% पुनर्प्राथमिकता"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إعادة ترتيب افتراضية 20% لعام 2025"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réaffectation hypothétique de 20 % en 2025"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 অনুমিত 20% পুনঃঅগ্রাধিকার"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repriorização hipotética de 20% em 2025"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гипотетическая смена приоритетов 20% в 2025"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 فرضی 20% ترجیح تبدیلی"
+          }
+        }
+      }
+    },
+    "evidence.original": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Özgün kaynak metni"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original source text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto original de la fuente"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testo originale della fonte"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原始来源文本"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मूल स्रोत पाठ"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نص المصدر الأصلي"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texte source original"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "মূল উৎসের লেখা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto original da fonte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Исходный текст источника"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اصل ماخذ متن"
+          }
+        }
+      }
+    },
+    "evidence.population": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nüfus gözlemi: TÜİK ADNKS. Tarih, çalışma sayfası, satır, kapsam ve dosya özeti özgün kaynak metnindedir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Population observation: TÜİK ADNKS. Date, worksheet, row, coverage and file hash are in the original source text."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Población: TÜİK ADNKS. Fecha, hoja, fila, cobertura y hash en el texto original."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Popolazione: TÜİK ADNKS. Data, foglio, riga, ambito e hash nel testo originale."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "人口观测：TÜİK ADNKS。日期、表页、行、范围及文件哈希见原文。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "जनसंख्या: TÜİK ADNKS। तिथि, शीट, पंक्ति, दायरा व हैश मूल पाठ में।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رصد السكان: TÜİK ADNKS. التاريخ والورقة والصف والنطاق وبصمة الملف في النص الأصلي."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Population : TÜİK ADNKS. Date, feuille, ligne, périmètre et empreinte dans le texte original."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "জনসংখ্যা: TÜİK ADNKS। তারিখ, শিট, সারি, আওতা ও হ্যাশ মূল লেখায়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "População: TÜİK ADNKS. Data, planilha, linha, escopo e hash no texto original."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Население: TÜİK ADNKS. Дата, лист, строка, охват и хеш в исходном тексте."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آبادی: TÜİK ADNKS۔ تاریخ، شیٹ، قطار، دائرہ اور ہیش اصل متن میں۔"
+          }
+        }
+      }
+    },
+    "evidence.serviceAssumptions": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hizmet girdileri senaryo varsayımlarıdır, ölçülmüş ilçe verisi değildir. Nüfus kaynağı ve hizmet katsayıları özgün metinde ayrı açıklanır."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service inputs are scenario assumptions, not measured district data. Population provenance and service coefficients are documented separately in the original text."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los servicios son supuestos, no mediciones distritales. Fuente de población y coeficientes se documentan aparte en el original."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I servizi sono ipotesi, non misure distrettuali. Fonte demografica e coefficienti sono separati nell’originale."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务输入为情景假设，并非区县实测。人口来源和服务系数在原文分别说明。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेवा इनपुट धारणाएँ हैं, ज़िले के माप नहीं। जनसंख्या स्रोत और सेवा गुणांक मूल पाठ में अलग हैं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مدخلات الخدمات افتراضات وليست قياسات للأقضية. مصدر السكان ومعاملات الخدمات موثقان منفصلين في الأصل."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les services sont des hypothèses, pas des mesures de district. Population et coefficients sont documentés séparément dans l’original."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরিষেবা ইনপুট অনুমান, জেলার মাপ নয়। জনসংখ্যার উৎস ও সহগ মূল লেখায় আলাদা।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serviços são hipóteses, não medições distritais. População e coeficientes documentados separadamente no original."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Данные услуг — допущения, не измерения районов. Источник населения и коэффициенты описаны отдельно в оригинале."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خدمات مفروضے ہیں، ضلعی پیمائش نہیں۔ آبادی ماخذ اور خدمت گتانک اصل متن میں الگ ہیں۔"
+          }
+        }
+      }
+    },
+    "evidence.povertyProxy": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yoksulluk profili temsili bir senaryo tahminidir, ölçülmüş veya istatistiksel olarak doğrulanmış ilçe oranı değildir. Yöntem, kaynaklar ve sınırlamalar özgün metindedir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The poverty profile is an illustrative scenario proxy, not a measured or statistically validated district rate. Method, sources and limitations are in the original text."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El perfil es una aproximación ilustrativa, no una tasa distrital medida o validada. Método, fuentes y límites en el original."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il profilo è una stima illustrativa, non un tasso distrettuale misurato o validato. Metodo, fonti e limiti nell’originale."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "贫困档案为示例情景代理值，非区县实测或统计验证比率。方法、来源和局限见原文。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "गरीबी प्रोफ़ाइल उदाहरणात्मक अनुमान है, मापी या सांख्यिकीय सत्यापित ज़िला दर नहीं। विधि, स्रोत व सीमाएँ मूल पाठ में।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ملف الفقر تقدير توضيحي وليس نسبة قضاء مقاسة أو متحققة إحصائيًا. الطريقة والمصادر والحدود في الأصل."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le profil est une estimation illustrative, pas un taux de district mesuré ou validé. Méthode, sources et limites dans l’original."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দারিদ্র্য প্রোফাইল উদাহরণমূলক অনুমান, মাপা বা পরিসংখ্যান যাচাইকৃত জেলা হার নয়। পদ্ধতি, উৎস ও সীমা মূল লেখায়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perfil é estimativa ilustrativa, não taxa distrital medida ou validada. Método, fontes e limites no original."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Профиль бедности — условная оценка, не измеренная или статистически подтверждённая доля района. Метод и ограничения в оригинале."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غربت پروفائل مثالی تخمینہ ہے، ناپی یا شماریاتی تصدیق شدہ ضلعی شرح نہیں۔ طریقہ، ماخذ و حدود اصل متن میں۔"
+          }
+        }
+      }
+    },
+    "evidence.editOriginal": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynak ve yöntem alanları özgün metni korur; dil seçimi bu girdileri değiştirmez."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source and method fields retain their original text; changing language does not rewrite these inputs."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuente y método conservan el original; cambiar idioma no los modifica."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fonte e metodo conservano l’originale; cambiare lingua non li modifica."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "来源和方法字段保留原文；切换语言不改写输入。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "स्रोत और विधि मूल पाठ रखते हैं; भाषा बदलने से इनपुट नहीं बदलते।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المصدر والطريقة يحتفظان بالأصل؛ تغيير اللغة لا يعيد كتابة المدخلات."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source et méthode conservent l’original ; la langue ne modifie pas les données."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "উৎস ও পদ্ধতি মূল লেখা রাখে; ভাষা বদলালে ইনপুট বদলায় না।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fonte e método mantêm o original; idioma não altera os dados."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поля источника и метода сохраняют оригинал; язык не меняет ввод."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماخذ اور طریقہ اصل متن رکھتے ہیں؛ زبان اندراجات نہیں بدلتی۔"
+          }
+        }
+      }
+    },
+    "evidence.editedTitle": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanıcı tarafından düzenlenen finansman"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "User-edited funding"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Financiación editada por el usuario"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finanziamento modificato dall’utente"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用户编辑资金"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "उपयोगकर्ता संपादित वित्त"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تمويل عدّله المستخدم"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Financement modifié par l’utilisateur"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ব্যবহারকারী সম্পাদিত অর্থায়ন"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Financiamento editado pelo usuário"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Финансы изменены пользователем"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صارف کی ترمیم شدہ مالی رقم"
+          }
+        }
+      }
+    },
+    "evidence.editedNote": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutarlar kullanıcı tarafından düzenlendi; önceki kaynak oranları artık bu tutarları açıklamayabilir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amounts were edited by the user; previous source ratios may no longer explain them."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importes editados; los ratios originales pueden no explicarlos."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importi modificati; i rapporti originali potrebbero non spiegarli."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用户已编辑金额；原来源比例可能不再适用。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "राशियाँ बदली गईं; पुराने स्रोत अनुपात अब लागू न हों।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عدّل المستخدم المبالغ؛ قد لا تفسرها نسب المصدر السابقة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Montants modifiés ; les ratios sources peuvent ne plus les expliquer."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "অঙ্ক সম্পাদিত; আগের অনুপাত আর ব্যাখ্যা নাও করতে পারে।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valores editados; proporções da fonte podem não explicá-los."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Суммы изменены; исходные пропорции могут их не объяснять."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رقوم ترمیم شدہ؛ پرانے ماخذ تناسب اب وضاحت نہ کریں۔"
+          }
+        }
+      }
+    },
+    "evidence.geographyVerification": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Üçüncü taraf referansı; resmî kayıtla bağımsız eşleştirme yapılmamıştır."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Third-party reference; not independently reconciled with the official registry."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Referencia externa; sin cotejo independiente con el registro oficial."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riferimento esterno; non verificato indipendentemente con il registro ufficiale."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "第三方参考；未经独立对照官方登记核实。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "तृतीय पक्ष संदर्भ; आधिकारिक रजिस्टर से स्वतंत्र मिलान नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مرجع طرف ثالث؛ لم يطابق مستقلًا مع السجل الرسمي."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Référence tierce ; non rapprochée indépendamment du registre officiel."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "তৃতীয় পক্ষের তথ্য; সরকারি নিবন্ধনের সঙ্গে স্বাধীন মিল নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Referência externa; sem conciliação independente com registro oficial."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сторонний справочник; независимо не сверялся с официальным реестром."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تیسرے فریق کا حوالہ؛ سرکاری رجسٹر سے آزاد ملاپ نہیں۔"
+          }
+        }
+      }
+    },
+    "2025 DEMO • tüm ilçe/hizmetler • varsayımsal ihtiyaç, maliyet ve finansman": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • tüm ilçe/hizmetler • varsayımsal ihtiyaç, maliyet ve finansman"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • all districts/services • assumed demand, costs and funding"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO 2025 • todos los distritos/servicios • demanda, costes y fondos supuestos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO 2025 • tutti i distretti/servizi • fabbisogni, costi e fondi ipotizzati"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025演示 • 全区县及服务 • 需求、成本和资金假设"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • सभी ज़िले/सेवाएँ • मांग, लागत और वित्त धारणाएँ"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO 2025 • كل الأقضية والخدمات • طلب وتكاليف وتمويل مفترض"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DÉMO 2025 • tous districts/services • besoins, coûts et financement supposés"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • সব জেলা/পরিষেবা • অনুমিত চাহিদা, খরচ ও অর্থায়ন"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEMO 2025 • todos os distritos/serviços • demanda, custos e fundos presumidos"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ДЕМО 2025 • все районы/услуги • допущения спроса, затрат и средств"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 DEMO • تمام اضلاع/خدمات • فرضی طلب، لاگت اور مالی وسائل"
+          }
+        }
+      }
+    },
+    "2025 RAPORLANAN BÜTÇE + tüm ilçelerde VARSAYIMSAL hizmet girdileri": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 RAPORLANAN BÜTÇE + tüm ilçelerde VARSAYIMSAL hizmet girdileri"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 REPORTED BUDGET + ASSUMED service inputs for all districts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PRESUPUESTO PUBLICADO 2025 + servicios SUPUESTOS en todos los distritos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BILANCIO PUBBLICATO 2025 + servizi IPOTIZZATI in tutti i distretti"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025公布预算 + 全区县假设服务输入"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 प्रकाशित बजट + सभी ज़िलों में अनुमानित सेवाएँ"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ميزانية 2025 منشورة + خدمات مفترضة لكل الأقضية"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BUDGET PUBLIÉ 2025 + services SUPPOSÉS dans tous les districts"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 প্রকাশিত বাজেট + সব জেলায় অনুমিত পরিষেবা"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ORÇAMENTO PUBLICADO 2025 + serviços PRESUMIDOS em todos os distritos"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "БЮДЖЕТ 2025 ПО ОТЧЁТУ + ДОПУЩЕНИЯ услуг во всех районах"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 شائع بجٹ + تمام اضلاع میں فرضی خدمات"
+          }
+        }
+      }
+    },
+    "Kullanıcı tarafından düzenlenen finansman": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanıcı tarafından düzenlenen finansman"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "User-edited funding"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Financiación editada por el usuario"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finanziamento modificato dall’utente"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用户编辑资金"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "उपयोगकर्ता संपादित वित्त"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تمويل عدّله المستخدم"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Financement modifié par l’utilisateur"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ব্যবহারকারী সম্পাদিত অর্থায়ন"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Financiamento editado pelo usuário"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Финансы изменены пользователем"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صارف کی ترمیم شدہ مالی رقم"
+          }
+        }
+      }
+    },
+    "Tutarlar kullanıcı tarafından düzenlendi; önceki kaynak oranları artık bu tutarları açıklamayabilir.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutarlar kullanıcı tarafından düzenlendi; önceki kaynak oranları artık bu tutarları açıklamayabilir."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amounts were edited by the user; previous source ratios may no longer explain them."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importes editados; los ratios originales pueden no explicarlos."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importi modificati; i rapporti originali potrebbero non spiegarli."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用户已编辑金额；原来源比例可能不再适用。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "राशियाँ बदली गईं; पुराने स्रोत अनुपात अब लागू न हों।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عدّل المستخدم المبالغ؛ قد لا تفسرها نسب المصدر السابقة."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Montants modifiés ; les ratios sources peuvent ne plus les expliquer."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "অঙ্ক সম্পাদিত; আগের অনুপাত আর ব্যাখ্যা নাও করতে পারে।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valores editados; proporções da fonte podem não explicá-los."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Суммы изменены; исходные пропорции могут их не объяснять."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رقوم ترمیم شدہ؛ پرانے ماخذ تناسب اب وضاحت نہ کریں۔"
+          }
+        }
+      }
+    },
+    "Third-party reference; not independently reconciled with official registry": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Üçüncü taraf referansı; resmî kayıtla bağımsız eşleştirme yapılmamıştır."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Third-party reference; not independently reconciled with the official registry."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Referencia externa; sin cotejo independiente con el registro oficial."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riferimento esterno; non verificato indipendentemente con il registro ufficiale."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "第三方参考；未经独立对照官方登记核实。"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "तृतीय पक्ष संदर्भ; आधिकारिक रजिस्टर से स्वतंत्र मिलान नहीं।"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مرجع طرف ثالث؛ لم يطابق مستقلًا مع السجل الرسمي."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Référence tierce ; non rapprochée indépendamment du registre officiel."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "তৃতীয় পক্ষের তথ্য; সরকারি নিবন্ধনের সঙ্গে স্বাধীন মিল নয়।"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Referência externa; sem conciliação independente com registro oficial."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сторонний справочник; независимо не сверялся с официальным реестром."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تیسرے فریق کا حوالہ؛ سرکاری رجسٹر سے آزاد ملاپ نہیں۔"
+          }
+        }
+      }
     }
   },
   "version": "1.1"

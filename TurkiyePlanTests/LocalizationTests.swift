@@ -43,4 +43,23 @@ final class LocalizationTests: XCTestCase {
   XCTAssertNotEqual(L10n.text("estimated", language: .ar), "estimated")
   XCTAssertEqual(AppLanguage.tr.rawValue, "tr")
  }
+ func testBundledFinanceMetadataIsTranslatedInEveryLanguage() throws {
+  let url = try XCTUnwrap(Bundle.main.url(forResource: "finance-presets-2025", withExtension: "json", subdirectory: "Resources") ?? Bundle.main.url(forResource: "finance-presets-2025", withExtension: "json"))
+  let presets = try JSONDecoder().decode([FinancePreset].self, from: Data(contentsOf: url))
+  for preset in presets {
+   let texts = [preset.name] + (preset.finances.provenance.map { [$0.title] + $0.notes } ?? [])
+   for text in texts {
+    for language in AppLanguage.allCases where language != .system {
+     XCTAssertNotNil(L10n.tables[language.rawValue]?[text], language.rawValue + ": " + text)
+    }
+   }
+  }
+ }
+ func testGeneratedEvidenceUsesLocalizedSummaryWithoutRewritingCitation() {
+  let citation = "TÜİK ADNKS 2025; reference date 2025-12-31; row 485; https://example.com/data.xlsx"
+  XCTAssertEqual(EvidenceLocalization.summaryKey(for: citation), "evidence.population")
+  XCTAssertEqual(citation, "TÜİK ADNKS 2025; reference date 2025-12-31; row 485; https://example.com/data.xlsx")
+  XCTAssertNil(EvidenceLocalization.summaryKey(for: "A custom source supplied by the user"))
+ }
+
 }

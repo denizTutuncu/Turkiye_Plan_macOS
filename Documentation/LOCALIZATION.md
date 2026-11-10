@@ -4,7 +4,7 @@ The app supports English (en), Turkish (tr), Spanish (es), Italian (it), Simplif
 
 ## Resources and architecture
 
-- `TurkiyePlan/Resources/Localizable.xcstrings` is the sole translation catalog: 354 entries, each with all 12 translations. Xcode compiles it into standard localized `.strings` resources. Do not copy compiled `.lproj` output into source control.
+- `TurkiyePlan/Resources/Localizable.xcstrings` is the sole translation catalog: 385 entries, each with all 12 translations. Xcode compiles it into standard localized `.strings` resources. Do not copy compiled `.lproj` output into source control.
 - `Utils/Localization.swift` contains the supported-language model, lookup and whole-message formatting helpers, preference object, language menu and localized root wrapper.
 - `L10n.text` resolves strings for the selected language. English is the fallback for missing translations; unknown custom labels remain verbatim. Turkish values equal to Turkish keys are valid and never mistaken for missing translations.
 - `L10n.format` supports numbered `{0}`, `{1}` placeholders so translations can reorder arguments without changing code. Arguments are inserted once, never interpreted as format strings.
@@ -14,7 +14,7 @@ The app supports English (en), Turkish (tr), Spanish (es), Italian (it), Simplif
 
 ## Data boundaries
 
-Province/district names, JSON keys, status codes (`observed`, `estimated`, `missing`), identifiers, budgets and calculations are not translated or rewritten. Catalog labels translate service/indicator names and units at display time. Custom scenario names, imported descriptions, provenance notes, citations and source evidence remain in their original language. This avoids misrepresenting source material. No JSON dataset or SwiftData schema changed, and no reimport or migration is needed.
+Province/district names, JSON keys, status codes (`observed`, `estimated`, `missing`), identifiers, budgets and calculations are not translated or rewritten. Catalog labels translate service/indicator names and units at display time. Known bundled scenario captions, finance preset names, finance titles and explanatory notes translate at display time, including copies already saved in the local workspace. Custom scenario names remain unchanged. EvidenceText shows localized explanations for known citation formats and an expandable Original source text section. Arbitrary imported prose is shown explicitly as original text, without rewriting stored citations, methods or editable source fields. No JSON dataset or SwiftData schema changed, and no reimport or migration is needed.
 
 Currency remains TRY in every language. Amount/date formatting and typed numeric form controls use the selected locale. Raw text fields for IDs, whole-number budget kuruş, indicator decimal values and poverty rates keep their existing input contracts; the latter two explicitly request a decimal point. Changing language does not change the values.
 

@@ -26,6 +26,20 @@ for filename in ('services.json', 'indicators.json'):
         for field in ('name', 'unit'):
             value = item[field]
             assert value in catalog or value == 'km²', (filename, value)
+# App-supplied scenario names and finance captions are presentation text too.
+resource_names = ['empty-scenario', 'demo-scenario', 'services-2025-complete-scenario',
+                  'finance-2025-reported-scenario', 'finance-2025-illustrative-scenario',
+                  'population-only-reference-scenario', 'finance-presets-2025']
+for name in resource_names:
+    data = json.loads((app / 'Resources' / (name + '.json')).read_text())
+    items = data if isinstance(data, list) else [data]
+    for item in items:
+        texts = [item['name']]
+        provenance = item.get('finances', {}).get('provenance') or {}
+        if provenance:
+            texts += [provenance['title']] + provenance.get('notes', [])
+        for text in texts:
+            assert text in catalog, (name, text)
 navigation = (app / 'Navigation/TabRouter.swift').read_text().split(' var symbol:')[0]
 assert len(re.findall(r'case \.\w+: L10n\.text\(', navigation)) == 5, 'All tab titles must use localization'
 editor = (app / 'UI/PovertyProfileEditor.swift').read_text()
