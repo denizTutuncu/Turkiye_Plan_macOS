@@ -1,0 +1,14 @@
+{
+  "districtCount": 973,
+  "provinceRollupCount": 81,
+  "unmatchedSEGEDistrictCount": 0,
+  "classification": "illustrative_proxy_not_verified_poverty",
+  "proxyYear": 2022,
+  "referenceYear": 2025,
+  "incomeBenchmarkYear": 2024,
+  "populationWeightedMeanRate": 0.13000000006204757,
+  "recordsChangingBetweenWeight0And1": 7784,
+  "independentBudgetConservationCheck": true,
+  "allAllocationsWithinCaps": true,
+  "nativeSwiftExecution": "not performed"
+}

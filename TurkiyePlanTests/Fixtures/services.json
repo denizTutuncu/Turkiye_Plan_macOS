@@ -1,0 +1,42 @@
+[
+  {
+    "id": "health",
+    "name": "Sağlık",
+    "unit": "Kişi / yıl"
+  },
+  {
+    "id": "education",
+    "name": "Eğitim",
+    "unit": "Öğrenci / yıl"
+  },
+  {
+    "id": "sports",
+    "name": "Spor",
+    "unit": "Katılımcı / yıl"
+  },
+  {
+    "id": "childcare",
+    "name": "Çocuk bakımı",
+    "unit": "Yer / yıl"
+  },
+  {
+    "id": "seniorcare",
+    "name": "Yaşlı bakımı",
+    "unit": "Kişi / yıl"
+  },
+  {
+    "id": "electricity",
+    "name": "Elektrik",
+    "unit": "Bağlantı"
+  },
+  {
+    "id": "water",
+    "name": "Su ve kanalizasyon",
+    "unit": "Hane bağlantısı"
+  },
+  {
+    "id": "recycling",
+    "name": "Geri dönüşüm",
+    "unit": "Ton / yıl"
+  }
+]

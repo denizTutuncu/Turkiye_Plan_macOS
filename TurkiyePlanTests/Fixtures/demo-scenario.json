@@ -1,0 +1,57 @@
+{
+  "name": "DEMO • üç ilçede sentetik sağlık verisi",
+  "isDemo": true,
+  "priceYear": 2026,
+  "budgetCents": 100000000,
+  "povertyWeight": 0.5,
+  "records": [
+    {
+      "districtID": "TUR001001",
+      "serviceID": "health",
+      "population": 10000,
+      "eligible": 1000,
+      "served": 400,
+      "targetCoverage": 1,
+      "capitalUnitCents": 100000,
+      "annualUnitCents": 25000,
+      "horizonYears": 5,
+      "povertyRate": 0.2,
+      "deliveryCostIndex": 1.0,
+      "fiscalCapacityIndex": 1,
+      "source": "SYNTHETIC DEMONSTRATION • not official observations",
+      "referenceYear": 2026
+    },
+    {
+      "districtID": "TUR001002",
+      "serviceID": "health",
+      "population": 20000,
+      "eligible": 2000,
+      "served": 800,
+      "targetCoverage": 1,
+      "capitalUnitCents": 100000,
+      "annualUnitCents": 25000,
+      "horizonYears": 5,
+      "povertyRate": 0.4,
+      "deliveryCostIndex": 1.1,
+      "fiscalCapacityIndex": 1,
+      "source": "SYNTHETIC DEMONSTRATION • not official observations",
+      "referenceYear": 2026
+    },
+    {
+      "districtID": "TUR001003",
+      "serviceID": "health",
+      "population": 30000,
+      "eligible": 3000,
+      "served": 1200,
+      "targetCoverage": 1,
+      "capitalUnitCents": 100000,
+      "annualUnitCents": 25000,
+      "horizonYears": 5,
+      "povertyRate": 0.6000000000000001,
+      "deliveryCostIndex": 1.2,
+      "fiscalCapacityIndex": 1,
+      "source": "SYNTHETIC DEMONSTRATION • not official observations",
+      "referenceYear": 2026
+    }
+  ]
+}

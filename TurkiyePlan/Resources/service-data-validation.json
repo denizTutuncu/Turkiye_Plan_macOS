@@ -1,0 +1,89 @@
+{
+  "status": "JSON/data checks passed; native app import not executed here",
+  "provinceCount": 81,
+  "districtCount": 973,
+  "serviceCount": 8,
+  "allocationRecordCount": 7784,
+  "populationObservationCount": 1054,
+  "positiveNeedRecordCount": 7784,
+  "illustrativeRequirementCents": 99022940160000,
+  "illustrativeBudgetCents": 58856023000000,
+  "independentAllocatedCents": 58856023000000,
+  "budgetConserved": true,
+  "allAllocationsWithinRequirements": true,
+  "services": [
+    {
+      "serviceID": "health",
+      "recordCount": 973,
+      "eligiblePeople": 86092168,
+      "servedPeopleAssumption": 77482536,
+      "additionalPeopleTarget": 8609632,
+      "requirementCents": 11192521600000,
+      "independentAllocationCheckCents": 6652471716688
+    },
+    {
+      "serviceID": "education",
+      "recordCount": 973,
+      "eligiblePeople": 18939796,
+      "servedPeopleAssumption": 17992347,
+      "additionalPeopleTarget": 947449,
+      "requirementCents": 6632143000000,
+      "independentAllocationCheckCents": 3941930630572
+    },
+    {
+      "serviceID": "sports",
+      "recordCount": 973,
+      "eligiblePeople": 25827222,
+      "servedPeopleAssumption": 12913364,
+      "additionalPeopleTarget": 6457427,
+      "requirementCents": 5165941600000,
+      "independentAllocationCheckCents": 3070468086839
+    },
+    {
+      "serviceID": "childcare",
+      "recordCount": 973,
+      "eligiblePeople": 5165049,
+      "servedPeopleAssumption": 1032609,
+      "additionalPeopleTarget": 1550150,
+      "requirementCents": 17051650000000,
+      "independentAllocationCheckCents": 10134947548182
+    },
+    {
+      "serviceID": "seniorcare",
+      "recordCount": 973,
+      "eligiblePeople": 3443231,
+      "servedPeopleAssumption": 860432,
+      "additionalPeopleTarget": 1722367,
+      "requirementCents": 18946037000000,
+      "independentAllocationCheckCents": 11260909720818
+    },
+    {
+      "serviceID": "electricity",
+      "recordCount": 973,
+      "eligiblePeople": 86092168,
+      "servedPeopleAssumption": 84369852,
+      "additionalPeopleTarget": 1722316,
+      "requirementCents": 1980663400000,
+      "independentAllocationCheckCents": 1177242065697
+    },
+    {
+      "serviceID": "water",
+      "recordCount": 973,
+      "eligiblePeople": 86092168,
+      "servedPeopleAssumption": 73177885,
+      "additionalPeopleTarget": 12914283,
+      "requirementCents": 28411422600000,
+      "independentAllocationCheckCents": 16886827833092
+    },
+    {
+      "serviceID": "recycling",
+      "recordCount": 973,
+      "eligiblePeople": 86092168,
+      "servedPeopleAssumption": 34436470,
+      "additionalPeopleTarget": 30133003,
+      "requirementCents": 9642560960000,
+      "independentAllocationCheckCents": 5731225398112
+    }
+  ],
+  "note": "The independent proportional check validates this particular neutral-factor dataset. It does not execute the Swift engine; tiny per-row cent rounding may differ from its floating score implementation."
+}

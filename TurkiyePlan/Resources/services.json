@@ -1,0 +1,42 @@
+[
+  {
+    "id": "health",
+    "name": "Sağlık",
+    "unit": "Ek hizmet kapasitesi sağlanan kişi / yıl"
+  },
+  {
+    "id": "education",
+    "name": "Eğitim",
+    "unit": "Ek eğitim kapasitesi sağlanan öğrenci / yıl"
+  },
+  {
+    "id": "sports",
+    "name": "Spor",
+    "unit": "Ek spor erişimi sağlanan katılımcı / yıl"
+  },
+  {
+    "id": "childcare",
+    "name": "Çocuk bakımı",
+    "unit": "Ek çocuk bakım kapasitesi sağlanan çocuk / yıl"
+  },
+  {
+    "id": "seniorcare",
+    "name": "Yaşlı bakımı",
+    "unit": "Ek yaşlı bakım kapasitesi sağlanan kişi / yıl"
+  },
+  {
+    "id": "electricity",
+    "name": "Elektrik",
+    "unit": "Elektrik erişimi iyileştirilen kişi eşdeğeri; bağlantı sayısı değil"
+  },
+  {
+    "id": "water",
+    "name": "Su ve kanalizasyon",
+    "unit": "Su/kanalizasyon erişimi iyileştirilen kişi eşdeğeri; hane değil"
+  },
+  {
+    "id": "recycling",
+    "name": "Geri dönüşüm",
+    "unit": "Atık toplama/ayrıştırma erişimi iyileştirilen kişi; ton değil"
+  }
+]

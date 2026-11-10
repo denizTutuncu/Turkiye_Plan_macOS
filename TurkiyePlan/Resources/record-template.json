@@ -1,0 +1,16 @@
+{
+  "districtID": "",
+  "serviceID": "",
+  "population": 0,
+  "eligible": 0,
+  "served": 0,
+  "targetCoverage": 1,
+  "capitalUnitCents": 0,
+  "annualUnitCents": 0,
+  "horizonYears": 5,
+  "povertyRate": null,
+  "deliveryCostIndex": 1,
+  "fiscalCapacityIndex": 1,
+  "source": "",
+  "referenceYear": 0
+}

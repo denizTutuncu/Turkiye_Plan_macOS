@@ -1,0 +1,24 @@
+{
+  "referenceYear": 2025,
+  "unit": "million TRY",
+  "sourceURL": "https://www.sbb.gov.tr/wp-content/uploads/2026/02/2026-Yili-Ocak-Ayi-MYB-Gerceklesmeleri.pdf",
+  "column": "2025 Yıllık Gerç.",
+  "page": 1,
+  "figures": {
+    "revenueMillionTRY": 12835477,
+    "nonInterestSpendingMillionTRY": 12580225,
+    "interestSpendingMillionTRY": 2054382,
+    "totalSpendingMillionTRY": 14634607,
+    "deficitMillionTRY": 1799130
+  },
+  "whatIfAssumptionsBasisPoints": {
+    "reallocationOfNonInterestSpending": 2000,
+    "additionalReserveOfRevenue": 100
+  },
+  "moneyScaleToCents": 100000000,
+  "notes": [
+    "Central government budget outturn only; not consolidated general government.",
+    "Separate 2026 values in the source PDF are not used.",
+    "This is a published annual outturn reference, not a claim of the latest revised final accounts."
+  ]
+}

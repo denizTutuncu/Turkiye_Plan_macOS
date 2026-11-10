@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "status": "illustrative_not_empirically_calibrated",
+  "referenceYear": 2025,
+  "horizonYears": 1,
+  "populationBasis": "TÜİK ADNKS 2025, 31 December 2025; existing source observations preserved",
+  "method": "Uniform national planning coefficients applied to measured district population. These are synthetic service-access scenarios, not measured 2025 district needs, costs, poverty or coverage.",
+  "povertyWeight": 0.5,
+  "povertyRatePlaceholder": null,
+  "deliveryCostIndex": 1,
+  "fiscalCapacityIndex": 1,
+  "services": [
+    {
+      "id": "health",
+      "eligibleShareBasisPoints": 10000,
+      "servedShareOfEligibleBasisPoints": 9000,
+      "targetCoverage": 1,
+      "capitalUnitTRY": 5000,
+      "annualUnitTRY": 8000,
+      "unit": "Ek hizmet kapasitesi sağlanan kişi / yıl"
+    },
+    {
+      "id": "education",
+      "eligibleShareBasisPoints": 2200,
+      "servedShareOfEligibleBasisPoints": 9500,
+      "targetCoverage": 1,
+      "capitalUnitTRY": 20000,
+      "annualUnitTRY": 50000,
+      "unit": "Ek eğitim kapasitesi sağlanan öğrenci / yıl"
+    },
+    {
+      "id": "sports",
+      "eligibleShareBasisPoints": 3000,
+      "servedShareOfEligibleBasisPoints": 5000,
+      "targetCoverage": 0.75,
+      "capitalUnitTRY": 5000,
+      "annualUnitTRY": 3000,
+      "unit": "Ek spor erişimi sağlanan katılımcı / yıl"
+    },
+    {
+      "id": "childcare",
+      "eligibleShareBasisPoints": 600,
+      "servedShareOfEligibleBasisPoints": 2000,
+      "targetCoverage": 0.5,
+      "capitalUnitTRY": 40000,
+      "annualUnitTRY": 70000,
+      "unit": "Ek çocuk bakım kapasitesi sağlanan çocuk / yıl"
+    },
+    {
+      "id": "seniorcare",
+      "eligibleShareBasisPoints": 400,
+      "servedShareOfEligibleBasisPoints": 2500,
+      "targetCoverage": 0.75,
+      "capitalUnitTRY": 30000,
+      "annualUnitTRY": 80000,
+      "unit": "Ek yaşlı bakım kapasitesi sağlanan kişi / yıl"
+    },
+    {
+      "id": "electricity",
+      "eligibleShareBasisPoints": 10000,
+      "servedShareOfEligibleBasisPoints": 9800,
+      "targetCoverage": 1,
+      "capitalUnitTRY": 10000,
+      "annualUnitTRY": 1500,
+      "unit": "Elektrik erişimi iyileştirilen kişi eşdeğeri; bağlantı sayısı değil"
+    },
+    {
+      "id": "water",
+      "eligibleShareBasisPoints": 10000,
+      "servedShareOfEligibleBasisPoints": 8500,
+      "targetCoverage": 1,
+      "capitalUnitTRY": 20000,
+      "annualUnitTRY": 2000,
+      "unit": "Su/kanalizasyon erişimi iyileştirilen kişi eşdeğeri; hane değil"
+    },
+    {
+      "id": "recycling",
+      "eligibleShareBasisPoints": 10000,
+      "servedShareOfEligibleBasisPoints": 4000,
+      "targetCoverage": 0.75,
+      "capitalUnitTRY": 2000,
+      "annualUnitTRY": 1200,
+      "unit": "Atık toplama/ayrıştırma erişimi iyileştirilen kişi; ton değil"
+    }
+  ],
+  "limitations": [
+    "Coverage, eligibility fractions, target choices and costs are illustrative assumptions selected to exercise the allocation model, not inferred official statistics.",
+    "No district-specific deprivation or service-quality ranking is claimed. Poverty adjustment uses separately labelled district profiles; null is unknown, not zero.",
+    "All districts share cost/fiscal factors of 1 until comparable local estimates are supplied.",
+    "Infrastructure quantities are resident-access equivalents because the current app requires person-based counts. This scenario does not calculate physical connections, m³, tonnes, grid engineering or facility counts.",
+    "One-year operating costs are included with capital costs. Later-year staffing/maintenance funding is not provided by this envelope."
+  ],
+  "povertyInput": "District povertyProfiles, with explicit provenance. No poverty rate inferred from spending."
+}

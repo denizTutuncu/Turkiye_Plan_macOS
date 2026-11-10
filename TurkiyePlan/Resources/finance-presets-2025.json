@@ -1,0 +1,66 @@
+[
+  {
+    "id": "reported-2025",
+    "name": "2025 gerçekleşme • ek bütçe yok",
+    "planningBudgetCents": 0,
+    "finances": {
+      "ownRevenueCents": 1283547700000000,
+      "externalTransfersCents": 0,
+      "committedSpendingCents": 1258022500000000,
+      "debtServiceCents": 205438200000000,
+      "reserveCents": 0,
+      "provenance": {
+        "title": "2025 merkezi yönetim bütçesi • yayımlanan yıllık gerçekleşme",
+        "sourceURL": "https://www.sbb.gov.tr/wp-content/uploads/2026/02/2026-Yili-Ocak-Ayi-MYB-Gerceklesmeleri.pdf",
+        "referenceYear": 2025,
+        "scope": "central_government_budget",
+        "status": "reported",
+        "notes": [
+          "Kaynak: SBB Ocak 2026 MYB tablosu, sayfa 1, 2025 Yıllık Gerç. sütunu. Tutarlar milyon TL düzeyinde yayımlanmıştır; kuruşa ölçeklemek ek doğruluk sağlamaz.",
+          "Bütçe gelirleri toplamı ilk alanda yer alır; toplam gelire ilave dış transfer eklenmez. externalTransfersCents=0, ayrı bir ek finansman akışı varsayılmadığı anlamındadır.",
+          "Taahhüt alanı bu geriye dönük bazda faiz dışı gerçekleşmiş harcamayı temsil eder; geleceğin hukuken bağlayıcı yükümlülük envanteri değildir.",
+          "debtServiceCents bu kaynakta yalnızca faiz gideridir; borç anapara itfalarını içermez. Bu veri bir nakit borç servisi tablosu değildir.",
+          "reserveCents=0, bu analizde ek rezerv kesintisi yapılmadığı anlamındadır; devletin rezerv stokunun sıfır olduğu iddiası değildir.",
+          "Bu kapsam merkezi yönetimdir. Belediyeler, SGK ve tüm kamu işletmelerinin konsolide toplamı değildir.",
+          "2025 harcamaları gelirden yüksek olduğundan bu bazda ek kullanılabilir bütçe sıfırdır; açık ayrıca gösterilir."
+        ]
+      }
+    }
+  },
+  {
+    "id": "illustrative-2025",
+    "name": "2025 varsayımsal %20 yeniden önceliklendirme",
+    "planningBudgetCents": 58856023000000,
+    "finances": {
+      "ownRevenueCents": 1283547700000000,
+      "externalTransfersCents": 0,
+      "committedSpendingCents": 1006418000000000,
+      "debtServiceCents": 205438200000000,
+      "reserveCents": 12835477000000,
+      "provenance": {
+        "title": "2025 bazında varsayımsal yeniden önceliklendirme",
+        "sourceURL": "https://www.sbb.gov.tr/wp-content/uploads/2026/02/2026-Yili-Ocak-Ayi-MYB-Gerceklesmeleri.pdf",
+        "referenceYear": 2025,
+        "scope": "central_government_budget",
+        "status": "illustrative",
+        "notes": [
+          "Kaynak: SBB Ocak 2026 MYB tablosu, sayfa 1, 2025 Yıllık Gerç. sütunu. Tutarlar milyon TL düzeyinde yayımlanmıştır; kuruşa ölçeklemek ek doğruluk sağlamaz.",
+          "Bütçe gelirleri toplamı ilk alanda yer alır; toplam gelire ilave dış transfer eklenmez. externalTransfersCents=0, ayrı bir ek finansman akışı varsayılmadığı anlamındadır.",
+          "Taahhüt alanı bu geriye dönük bazda faiz dışı gerçekleşmiş harcamayı temsil eder; geleceğin hukuken bağlayıcı yükümlülük envanteri değildir.",
+          "debtServiceCents bu kaynakta yalnızca faiz gideridir; borç anapara itfalarını içermez. Bu veri bir nakit borç servisi tablosu değildir.",
+          "reserveCents=0, bu analizde ek rezerv kesintisi yapılmadığı anlamındadır; devletin rezerv stokunun sıfır olduğu iddiası değildir.",
+          "Bu kapsam merkezi yönetimdir. Belediyeler, SGK ve tüm kamu işletmelerinin konsolide toplamı değildir.",
+          "2025 harcamaları gelirden yüksek olduğundan bu bazda ek kullanılabilir bütçe sıfırdır; açık ayrıca gösterilir.",
+          "YALNIZCA SENARYO: faiz dışı harcamanın %20’si yeniden önceliklendirmeye açılır ve gelirin %1’i ek rezerv olarak ayrılır. Bunlar önerilmiş/onanmış tasarruflar değildir.",
+          "Hangi programların nasıl değiştirileceği ve bunun hizmet etkileri değerlendirilmedi. Bu tutar tahsil edilmiş ek gelir veya doğrulanmış serbest ödenek değildir.",
+          "Mevcut hizmet harcamalarının bir kısmını yeni programlara taşımak aynı harcamayı iki kez finanse etmemelidir.",
+          "Bir yıllık mali zarf, sürekli/multi-yıl harcama taahhüdüne otomatik finansman sağlamaz."
+        ],
+        "assumptions": {
+          "reallocationShareOfNonInterestSpending": 0.2,
+          "additionalReserveShareOfRevenue": 0.01
+        }
+      }
+    }
+  }
+]

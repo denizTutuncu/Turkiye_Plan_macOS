@@ -1,0 +1,157 @@
+[
+  {
+    "id": "population",
+    "name": "Toplam nüfus",
+    "unit": "kişi"
+  },
+  {
+    "id": "children",
+    "name": "Çocuk nüfusu",
+    "unit": "kişi"
+  },
+  {
+    "id": "seniors",
+    "name": "65+ nüfus",
+    "unit": "kişi"
+  },
+  {
+    "id": "disability",
+    "name": "Engelli nüfus",
+    "unit": "kişi"
+  },
+  {
+    "id": "education_attainment",
+    "name": "Ortalama eğitim süresi",
+    "unit": "yıl"
+  },
+  {
+    "id": "household_income",
+    "name": "Medyan hane kullanılabilir geliri",
+    "unit": "TRY/yıl"
+  },
+  {
+    "id": "essential_cost",
+    "name": "Temel hane gideri",
+    "unit": "TRY/yıl"
+  },
+  {
+    "id": "poverty",
+    "name": "Yoksulluk oranı",
+    "unit": "oran 0–1"
+  },
+  {
+    "id": "employment",
+    "name": "İstihdam oranı",
+    "unit": "oran 0–1"
+  },
+  {
+    "id": "own_revenue",
+    "name": "Yerel öz gelir",
+    "unit": "TRY/yıl"
+  },
+  {
+    "id": "transfers",
+    "name": "Dış transferler",
+    "unit": "TRY/yıl"
+  },
+  {
+    "id": "spending",
+    "name": "Gerçekleşen kamu harcaması",
+    "unit": "TRY/yıl"
+  },
+  {
+    "id": "debt_service",
+    "name": "Borç servisi",
+    "unit": "TRY/yıl"
+  },
+  {
+    "id": "health_wait",
+    "name": "Sağlık randevu bekleme süresi",
+    "unit": "gün"
+  },
+  {
+    "id": "health_staff",
+    "name": "Sağlık personeli",
+    "unit": "kişi"
+  },
+  {
+    "id": "school_attendance",
+    "name": "Okula devam oranı",
+    "unit": "oran 0–1"
+  },
+  {
+    "id": "school_capacity",
+    "name": "Öğrenci kapasitesi",
+    "unit": "öğrenci"
+  },
+  {
+    "id": "sports_participation",
+    "name": "Düzenli spora katılım",
+    "unit": "oran 0–1"
+  },
+  {
+    "id": "childcare_places",
+    "name": "Çocuk bakım kapasitesi",
+    "unit": "yer"
+  },
+  {
+    "id": "seniorcare_places",
+    "name": "Yaşlı bakım kapasitesi",
+    "unit": "yer"
+  },
+  {
+    "id": "care_waitlist",
+    "name": "Bakım bekleme listesi",
+    "unit": "kişi"
+  },
+  {
+    "id": "electricity_outage",
+    "name": "Yıllık elektrik kesintisi",
+    "unit": "dakika/abone"
+  },
+  {
+    "id": "water_loss",
+    "name": "Su kayıp oranı",
+    "unit": "oran 0–1"
+  },
+  {
+    "id": "sewer_coverage",
+    "name": "Kanalizasyon kapsamı",
+    "unit": "oran 0–1"
+  },
+  {
+    "id": "water_reuse",
+    "name": "Geri kullanılan su",
+    "unit": "m³/yıl"
+  },
+  {
+    "id": "plastic_waste",
+    "name": "Plastik atık miktarı",
+    "unit": "ton/yıl"
+  },
+  {
+    "id": "recycling_yield",
+    "name": "Doğrulanmış geri kazanım verimi",
+    "unit": "oran 0–1"
+  },
+  {
+    "id": "land_area",
+    "name": "Yüzölçümü",
+    "unit": "km²"
+  },
+  {
+    "id": "rural_population",
+    "name": "Kırsal nüfus",
+    "unit": "kişi"
+  },
+  {
+    "id": "language_support",
+    "name": "Dil desteği ihtiyacı",
+    "unit": "kişi"
+  },
+  {
+    "id": "education_dropout",
+    "name": "Okul terk oranı",
+    "unit": "oran 0–1"
+  }
+]
